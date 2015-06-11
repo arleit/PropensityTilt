@@ -1,14 +1,14 @@
 # PropensityTilt
 
-Readme for PropensityTilt senior project
+Readme for PropensityTilt senior project 
 
-Some basic commands
-Ignore the outermost quotes
-To pull: use "git pull origin head"
-To see if you have local changes use "git status"
-To add a file ready to be pushed, use "git add pathtofile"
-To make a commit when all necessary files have been added, use "git commit -m "commit message here""
-To push: use "git push origin head"
+Some basic commands 
+Ignore the outermost quotes 
+To pull: use "git pull origin head" 
+To see if you have local changes use "git status" 
+To add a file ready to be pushed, use "git add pathtofile" 
+To make a commit when all necessary files have been added, use "git commit -m "commit message here"" 
+To push: use "git push origin head" 
 
 Order of operations when ready to push files to origin
 	1. run a git pull
