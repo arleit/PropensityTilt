@@ -4,7 +4,7 @@ Readme for PropensityTilt senior project
 
 Some basic commands 
 
-Ignore the outermost quotes <t>\n</t>
+Ignore the outermost quotes <p></p>
 To pull: use "git pull origin head" 
 To see if you have local changes use "git status" 
 To add a file ready to be pushed, use "git add pathtofile" 
