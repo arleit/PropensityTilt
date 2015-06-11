@@ -1,0 +1,28 @@
+LogFile opened
+Entering job loop
+
+Processing shader
+Job is WJT_D3D9Shader
+Writing output
+
+Processing shader
+Job is WJT_D3D9Shader
+Writing output
+
+Processing shader
+Job is WJT_D3D9Shader
+Writing output
+
+Processing shader
+Job is WJT_D3D9Shader
+Writing output
+
+Processing shader
+Job is WJT_D3D9Shader
+Writing output
+
+Processing shader
+Job is WJT_D3D9Shader
+Writing output
+No jobs found for 20 seconds, exiting
+Exiting

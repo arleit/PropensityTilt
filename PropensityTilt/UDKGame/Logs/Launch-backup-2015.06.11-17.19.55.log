@@ -1,0 +1,176 @@
+Log: Log file open, 06/11/15 17:19:47
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12791
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Jan 29 2015 19:31:11
+Init: Changelist: 2424394
+Init: Command line: make -full -nopauseonsuccess -silent
+Init: Base directory: C:\UDK\PropensityTilt\Binaries\Win32\
+[0000.26] Init: Computer: WITR9ZWCH8
+[0000.26] Init: User: flahertyj6
+[0000.26] Init: CPU Page size=4096, Processors=8
+[0000.26] Init: High frequency timer resolution =2.630741 MHz
+[0000.26] Init: Memory total: Physical=7.6GB (7GB approx) Pagefile=8.7GB Virtual=4.0GB
+[0000.26] Log: Steam Client API Disabled!
+[0000.29] Init: WinSock: I am WITR9ZWCH8 (192.168.211.1:0)
+[0000.29] Log: Failed to initialize stat notify provider BinaryFileStatNotifyProvider
+[0000.29] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.29] Init: Object subsystem initialized
+[0000.47] Log: Found D3D11 adapter 0: Intel(R) HD Graphics 4000
+[0000.47] Log: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory
+[0000.99] Log: Found D3D11 adapter 1: NVIDIA Quadro K1000M 
+[0000.99] Log: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 2101MB of shared system memory
+[0001.01] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0001.01] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[0001.04] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.07] Log: PhysX GPU Support: DISABLED
+[0001.08] Init: Initializing FaceFX...
+[0001.08] Init: FaceFX 1.7.4 initialized.
+[0001.08] Init: Version: 12791
+[0001.08] Init: Epic Internal: 0
+[0001.08] Init: Compiled (32-bit): Jan 29 2015 19:30:09
+[0001.08] Init: Command line:  -full -nopauseonsuccess -silent
+[0001.08] Init: Base directory: C:\UDK\PropensityTilt\Binaries\Win32\
+[0001.08] Init: Character set: Unicode
+[0001.08] Log: Executing Class UnrealEd.MakeCommandlet
+[0001.08] Init: UEngine initialized
+[0001.10] Heading: --------------------Core - Release--------------------
+[0001.10] Log: Analyzing...
+[0001.10] Log: Loading global macros for Core
+[0001.14] Log: Success: Compiled 3049 line(s), 498 statement(s).
+
+[0001.14] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\Core.u'
+[0001.16] Log: Save=17.984287
+[0001.16] Log: Moving '..\..\UDKGame\Script\Core_save.tmp' to '..\..\UDKGame\Script\Core.u'
+[0001.16] Heading: --------------------Engine - Release--------------------
+[0001.18] Log: Analyzing...
+[0001.18] Log: Loading global macros for Engine
+[0001.32] Log: Undefining macro 'INCLUDE_GAME_STATS' at line 11
+[0003.68] Log: Success: Compiled 174232 line(s), 19471 statement(s).
+
+[0003.68] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\Engine.u'
+[0004.32] Log: Save=636.508497
+[0004.32] Log: Moving '..\..\UDKGame\Script\Engine_save.tmp' to '..\..\UDKGame\Script\Engine.u'
+[0004.32] Heading: --------------------IpDrv - Release--------------------
+[0004.32] Log: Analyzing...
+[0004.33] Log: Loading global macros for IpDrv
+[0005.07] Log: Success: Compiled 43137 line(s), 3989 statement(s).
+
+[0005.07] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\IpDrv.u'
+[0005.18] Log: Save=109.308746
+[0005.18] Log: Moving '..\..\UDKGame\Script\IpDrv_save.tmp' to '..\..\UDKGame\Script\IpDrv.u'
+[0005.19] Heading: --------------------GFxUI - Release--------------------
+[0005.19] Log: Analyzing...
+[0005.19] Log: Loading global macros for GFxUI
+[0005.21] Log: Success: Compiled 1750 line(s), 326 statement(s).
+
+[0005.21] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\GFxUI.u'
+[0005.24] Log: Save=24.908952
+[0005.24] Log: Moving '..\..\UDKGame\Script\GFxUI_save.tmp' to '..\..\UDKGame\Script\GFxUI.u'
+[0005.24] Heading: --------------------GameFramework - Release--------------------
+[0005.24] Log: Analyzing...
+[0005.24] Log: Loading global macros for GameFramework
+[0005.69] Log: Success: Compiled 23990 line(s), 2540 statement(s).
+
+[0005.69] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\GameFramework.u'
+[0005.80] Log: Save=109.196230
+[0005.80] Log: Moving '..\..\UDKGame\Script\GameFramework_save.tmp' to '..\..\UDKGame\Script\GameFramework.u'
+[0005.80] Heading: --------------------UnrealEd - Release--------------------
+[0005.80] Log: Analyzing...
+[0005.80] Log: Loading global macros for UnrealEd
+[0006.16] Log: Success: Compiled 10589 line(s), 1113 statement(s).
+
+[0006.16] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\UnrealEd.u'
+[0006.26] Log: Save=97.218616
+[0006.26] Log: Moving '..\..\UDKGame\Script\UnrealEd_save.tmp' to '..\..\UDKGame\Script\UnrealEd.u'
+[0006.26] Heading: --------------------GFxUIEditor - Release--------------------
+[0006.26] Log: Analyzing...
+[0006.26] Log: Loading global macros for GFxUIEditor
+[0006.27] Log: Success: Compiled 237 line(s), 12 statement(s).
+
+[0006.27] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\GFxUIEditor.u'
+[0006.28] Log: Save=16.571377
+[0006.28] Log: Moving '..\..\UDKGame\Script\GFxUIEditor_save.tmp' to '..\..\UDKGame\Script\GFxUIEditor.u'
+[0006.28] Heading: --------------------WinDrv - Release--------------------
+[0006.28] Log: Analyzing...
+[0006.29] Log: Loading global macros for WinDrv
+[0006.30] Log: Success: Compiled 409 line(s), 67 statement(s).
+
+[0006.30] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\WinDrv.u'
+[0006.31] Log: Save=17.552089
+[0006.31] Log: Moving '..\..\UDKGame\Script\WinDrv_save.tmp' to '..\..\UDKGame\Script\WinDrv.u'
+[0006.32] Heading: --------------------OnlineSubsystemPC - Release--------------------
+[0006.32] Log: Analyzing...
+[0006.32] Log: Loading global macros for OnlineSubsystemPC
+[0006.34] Log: Success: Compiled 2018 line(s), 231 statement(s).
+
+[0006.34] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\OnlineSubsystemPC.u'
+[0006.37] Log: Save=23.704348
+[0006.37] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemPC_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemPC.u'
+[0006.37] Heading: --------------------OnlineSubsystemSteamworks - Release--------------------
+[0006.37] Log: Analyzing...
+[0006.37] Log: Loading global macros for OnlineSubsystemSteamworks
+[0006.44] Log: Success: Compiled 5497 line(s), 535 statement(s).
+
+[0006.44] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\OnlineSubsystemSteamworks.u'
+[0006.47] Log: Save=33.559366
+[0006.47] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemSteamworks_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemSteamworks.u'
+[0006.47] Heading: --------------------OnlineSubsystemGameCenter - Release--------------------
+[0006.47] Log: Analyzing...
+[0006.47] Log: Loading global macros for OnlineSubsystemGameCenter
+[0006.52] Log: Success: Compiled 3438 line(s), 409 statement(s).
+
+[0006.52] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\OnlineSubsystemGameCenter.u'
+[0006.55] Log: Save=29.702278
+[0006.55] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemGameCenter_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemGameCenter.u'
+[0006.55] Heading: --------------------OnlineSubsystemGameCircle - Release--------------------
+[0006.55] Log: Analyzing...
+[0006.55] Log: Loading global macros for OnlineSubsystemGameCircle
+[0006.60] Log: Success: Compiled 3411 line(s), 398 statement(s).
+
+[0006.60] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\OnlineSubsystemGameCircle.u'
+[0006.63] Log: Save=29.194816
+[0006.63] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemGameCircle_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemGameCircle.u'
+[0006.63] Heading: --------------------SubstanceAir - Release--------------------
+[0006.63] Log: Analyzing...
+[0006.63] Log: Loading global macros for SubstanceAir
+[0006.64] Log: Success: Compiled 308 line(s), 51 statement(s).
+
+[0006.64] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\SubstanceAir.u'
+[0006.66] Log: Save=23.463731
+[0006.66] Log: Moving '..\..\UDKGame\Script\SubstanceAir_save.tmp' to '..\..\UDKGame\Script\SubstanceAir.u'
+[0006.67] Heading: --------------------SubstanceAirEd - Release--------------------
+[0006.67] Log: Analyzing...
+[0006.67] Log: Loading global macros for SubstanceAirEd
+[0006.67] Log: Success: Compiled 112 line(s), 5 statement(s).
+
+[0006.67] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\SubstanceAirEd.u'
+[0006.69] Log: Save=19.244388
+[0006.69] Log: Moving '..\..\UDKGame\Script\SubstanceAirEd_save.tmp' to '..\..\UDKGame\Script\SubstanceAirEd.u'
+[0006.69] Heading: --------------------PropensityTiltGame - Release--------------------
+[0006.69] Log: Analyzing...
+[0006.69] Log: Loading global macros for PropensityTiltGame
+[0006.70] Log: Success: Compiled 27 line(s), 5 statement(s).
+
+[0006.70] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\PropensityTiltGame.u'
+[0006.73] Log: Save=37.039374
+[0006.73] Log: Moving '..\..\UDKGame\Script\PropensityTiltGame_save.tmp' to '..\..\UDKGame\Script\PropensityTiltGame.u'
+[0006.73] Heading: --------------------UDKBase - Release--------------------
+[0006.74] Log: Analyzing...
+[0006.74] Log: Loading global macros for UDKBase
+[0006.91] Log: Success: Compiled 10390 line(s), 1607 statement(s).
+
+[0006.91] Log: Scripts successfully compiled - saving package 'C:\UDK\PropensityTilt\Binaries\Win32\..\..\UDKGame\Script\UDKBase.u'
+[0007.01] Log: Save=99.607677
+[0007.01] Log: Moving '..\..\UDKGame\Script\UDKBase_save.tmp' to '..\..\UDKGame\Script\UDKBase.u'
+[0007.08] Log: 
+[0007.08] Log: Success - 0 error(s), 0 warning(s)
+[0007.08] Log: 
+Execution of commandlet took:  5.99 seconds
+[0007.08] Exit: Preparing to exit.
+[0007.12] Exit: Object subsystem successfully closed.
+[0007.12] Log: Shutting down FaceFX...
+[0007.12] Log: FaceFX shutdown.
+[0007.12] Exit: Exiting.
+[0007.12] Log: Log file closed, 06/11/15 17:19:54

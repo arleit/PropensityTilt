@@ -1,0 +1,136 @@
+Log: Log file open, 06/11/15 17:54:05
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12791
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Jan 29 2015 19:35:41
+Init: Changelist: 2424394
+Init: Command line: editor 
+Init: Base directory: C:\UDK\PropensityTilt\Binaries\Win64\
+[0000.37] Init: Computer: WITR9ZWCH8
+[0000.37] Init: User: flahertyj6
+[0000.37] Init: CPU Page size=4096, Processors=8
+[0000.37] Init: High frequency timer resolution =2.630741 MHz
+[0000.37] Init: Memory total: Physical=7.6GB (7GB approx) Pagefile=8.7GB Virtual=8192.0GB
+[0000.37] Log: Steam Client API Disabled!
+[0000.40] Init: WinSock: I am WITR9ZWCH8 (192.168.211.1:0)
+[0000.40] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.40] Init: Object subsystem initialized
+[0000.42] Log: SystemSettings based on: SystemSettings
+[0000.47] Log: Found D3D11 adapter 0: Intel(R) HD Graphics 4000
+[0000.47] Log: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory
+[0000.51] Log: Found D3D11 adapter 1: NVIDIA Quadro K1000M 
+[0000.51] Log: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory
+[0000.51] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0000.51] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[0000.56] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.84] Log: PhysX GPU Support: DISABLED
+[0000.88] Init: Initializing FaceFX...
+[0000.88] Init: FaceFX 1.7.4 initialized.
+[0001.94] Log: Failed to load 'UI_Fonts': Can't find file 'UI_Fonts'
+[0001.94] Log: Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
+[0001.95] Init: Finished loading startup packages in 0.95 seconds
+[0001.95] Log: 55334 objects as part of root set at end of initial load.
+[0001.95] Log: 0 out of 0 bytes used by permanent object pool.
+[0002.65] Log: Supported Consoles:
+[0002.65] Log:   IPhone
+[0002.65] Log:   Mac
+[0002.65] Log:   PC
+[0002.65] Log: Initializing Engine...
+[0002.79] Log: Encountered missing default brush - spawning new one
+[0002.79] Init: UEngine initialized
+[0002.79] Log: Primary PhysX scene will be in software.
+[0002.79] Log: Creating Primary PhysX Scene.
+[0002.80] Init: Transaction tracking system initialized
+[0002.81] Log: Can't find edit package 'OnlineSubsystemLive'
+[0002.82] Log: Can't find edit package 'OnlineSubsystemPlayerGameServices'
+[0002.83] Init: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0002.85] Init: XAudio2Device initialized.
+[0002.86] Init: Client initialized
+[0002.86] Init: Editor engine initialized
+[0002.95] Log: Initializing Engine Completed
+[0002.95] Log: >>>>>>>>>>>>>> Initial startup: 2.95s <<<<<<<<<<<<<<<
+[0003.02] Cmd: MODE MAPEXT=udk
+[0003.39] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0004.53] Log: Found D3D11 adapter 0: Intel(R) HD Graphics 4000
+[0004.53] Log: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory
+[0004.84] Log: Found D3D11 adapter 1: NVIDIA Quadro K1000M 
+[0004.84] Log: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory
+[0004.85] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0004.85] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[0006.13] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0006.29] Log: Encountered missing default brush - spawning new one
+[0006.44] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0006.49] Log: -- Checking Building LODs
+[0006.49] Log: Primary PhysX scene will be in software.
+[0006.49] Log: Creating Primary PhysX Scene.
+[0006.49] Log: Finished looking for orphan Actors (0.001 secs)
+[0006.49] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0006.49] Log: TIMER ALL OF INIT : [5.602221]
+[0030.82] Log: Encountered missing default brush - spawning new one
+[0030.87] Log: Encountered missing default brush - spawning new one
+[0030.88] Log: Primary PhysX scene will be in software.
+[0030.88] Log: Creating Primary PhysX Scene.
+[0036.04] Log: Increasing size of CachedMaterials to 1 for Terrain_0
+[0105.72] Log: Built Phys StaticMesh Cache: 0.904 ms
+[0105.72] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 0 Convex Hulls (0.000000 KB) - Total 0.000000 KB
+[0105.80] Log: Save=30.809570
+[0105.80] Log: Moving 'C:\UDK\UDK-2014-08\UDKGame\Content\Maps\Examples\level01_save.tmp' to 'C:\UDK\UDK-2014-08\UDKGame\Content\Maps\Examples\level01.udk'
+[0105.83] Log: Save=22.625564
+[0105.83] Log: Compressing '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
+[0135.00] Log: Built Phys StaticMesh Cache: 1.168 ms
+[0135.00] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 0 Convex Hulls (0.000000 KB) - Total 0.000000 KB
+[0135.08] Log: Save=30.361788
+[0135.08] Log: Moving 'C:\Users\flahertyj6\PropensityTilt\level01_save.tmp' to 'C:\Users\flahertyj6\PropensityTilt\level01.udk'
+[0135.08] Error: Ambiguous package name: Using 'C:\UDK\UDK-2014-08\UDKGame\Content\Maps\Examples\level01.udk', not 'C:\Users\flahertyj6\PropensityTilt\level01.udk'
+[0232.56] Cmd: MODE TERRAINEDIT
+[0256.43] Cmd: MODE CAMERAMOVE
+[0259.87] Cmd: MODE TERRAINEDIT
+[0281.09] Log: Tessellation Increase
+[0285.13] Log: OLD TERRAIN - Must convert it!
+[0285.13] Log: 	Patches....................  16 x   16
+[0285.13] Log: 	Min/MaxTessellation........   1 x    4
+[0285.13] Log: 	CollisionTessellation......   4
+[0285.13] Log: 	Scale......................  1.0000 - 256.0000,256.0000,256.0000
+[0285.13] Log: 	New Patch Count............  32 x   32
+[0285.13] Log: 	NewCollisionTessellation...   1
+[0285.13] Log: 	NewScale......................  1.0000 - 128.0000,128.0000,256.0000
+[0285.13] Log: Terrain Converted!!
+[0286.46] Log: Tessellation Increase
+[0287.57] Log: OLD TERRAIN - Must convert it!
+[0287.57] Log: 	Patches....................  32 x   32
+[0287.57] Log: 	Min/MaxTessellation........   1 x    2
+[0287.57] Log: 	CollisionTessellation......   2
+[0287.57] Log: 	Scale......................  1.0000 - 128.0000,128.0000,256.0000
+[0287.57] Log: 	New Patch Count............  64 x   64
+[0287.57] Log: 	NewCollisionTessellation...   1
+[0287.57] Log: 	NewScale......................  1.0000 -  64.0000, 64.0000,256.0000
+[0287.57] Log: Terrain Converted!!
+[0442.85] Log: Save=33.762731
+[0442.85] Log: Moving 'C:\UDK\PropensityTilt\Binaries\Win64\..\..\UDKGame\Autosaves\level01_Auto5_save.tmp' to 'C:\UDK\PropensityTilt\Binaries\Win64\..\..\UDKGame\Autosaves\level01_Auto5.udk'
+[0448.88] Log: Built Phys StaticMesh Cache: 1.243 ms
+[0448.88] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 0 Convex Hulls (0.000000 KB) - Total 0.000000 KB
+[0448.99] Log: Save=35.637488
+[0448.99] Log: Moving 'C:\UDK\UDK-2014-08\UDKGame\Content\Maps\Examples\level01_save.tmp' to 'C:\UDK\UDK-2014-08\UDKGame\Content\Maps\Examples\level01.udk'
+[0543.86] Cmd: EDCALLBACK SELECTEDPROPS
+[0604.67] Cmd: EDCALLBACK SELECTEDPROPS
+[0682.26] Cmd: TRANSACTION UNDO
+[0682.26] Log: Undo TerrainEdit
+[0682.75] Cmd: TRANSACTION UNDO
+[0682.75] Log: Undo TerrainEdit
+[0683.19] Cmd: TRANSACTION UNDO
+[0683.19] Log: Undo TerrainEdit
+[0683.59] Cmd: TRANSACTION UNDO
+[0683.59] Log: Undo TerrainEdit
+[0683.84] Cmd: TRANSACTION UNDO
+[0683.84] Log: Undo TerrainEdit
+[0684.11] Cmd: TRANSACTION UNDO
+[0684.11] Log: Undo TerrainEdit
+[0684.37] Cmd: TRANSACTION UNDO
+[0684.37] Log: Undo TerrainEdit
+[0684.79] Cmd: TRANSACTION UNDO
+[0684.79] Log: Undo TerrainEdit
+[0685.18] Cmd: TRANSACTION UNDO
+[0685.18] Log: Undo TerrainEdit
+[0749.18] Log: Save=34.752946
+[0749.18] Log: Moving 'C:\UDK\PropensityTilt\Binaries\Win64\..\..\UDKGame\A

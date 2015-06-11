@@ -1,0 +1,83 @@
+Log: Log file open, 06/11/15 17:52:06
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12791
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Jan 29 2015 19:31:11
+Init: Changelist: 2424394
+Init: Command line: 
+Init: Base directory: C:\UDK\PropensityTilt\Binaries\Win32\
+[0000.25] Init: Computer: WITR9ZWCH8
+[0000.25] Init: User: flahertyj6
+[0000.25] Init: CPU Page size=4096, Processors=8
+[0000.25] Init: High frequency timer resolution =2.630741 MHz
+[0000.25] Init: Memory total: Physical=7.6GB (7GB approx) Pagefile=8.7GB Virtual=4.0GB
+[0000.25] Log: Steam Client API initialized 0
+[0000.25] Log: Steam Game Server API initialized 0
+[0000.28] Init: WinSock: I am WITR9ZWCH8 (192.168.211.1:0)
+[0000.28] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.28] Init: Object subsystem initialized
+[0000.36] Log: Found D3D11 adapter 0: Intel(R) HD Graphics 4000
+[0000.36] Log: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory
+[0000.69] Log: Found D3D11 adapter 1: NVIDIA Quadro K1000M 
+[0000.69] Log: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 2101MB of shared system memory
+[0000.70] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0000.70] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[0000.75] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.04] Log: PhysX GPU Support: DISABLED
+[0001.08] Init: Initializing FaceFX...
+[0001.08] Init: FaceFX 1.7.4 initialized.
+[0001.12] Init: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0002.14] Warning: Warning, Failed to load 'UI_Fonts': Can't find file 'UI_Fonts'
+[0002.15] Warning: Warning, Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
+[0002.15] Init: Finished loading startup packages in 0.90 seconds
+[0002.15] Log: 51455 objects as part of root set at end of initial load.
+[0002.15] Log: 0 out of 0 bytes used by permanent object pool.
+[0002.15] Log: Initializing Engine...
+[0002.25] Init: UEngine initialized
+[0002.33] Init: XAudio2Device initialized.
+[0002.35] Init: Client initialized
+[0008.29] Log: Steam Client API is unavailable
+[0008.30] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0008.30] Warning: Warning, Failed to find object 'Class None.'
+[0008.30] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0008.30] Warning: Warning, Failed to find object 'Class None.'
+[0008.30] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0008.30] Warning: Warning, Failed to find object 'Class None.'
+[0008.30] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0008.30] Warning: Warning, Failed to find object 'Class None.'
+[0008.34] Log: LoadMap: ExampleEntry?Name=Player?Team=255
+[0008.38] Log: Game class is 'PropensityTiltGameInfo'
+[0008.39] Log: Primary PhysX scene will be in software.
+[0008.39] Log: Creating Primary PhysX Scene.
+[0008.39] Log: Bringing World exampleentry.TheWorld up for play (0) at 2015.06.11-17.52.14
+[0008.40] Log: Bringing up level for play took: 0.008565
+[0008.40] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0008.40] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0008.40] Log: ########### Finished loading level: 0.052450 seconds
+[0008.40] Init: Game engine initialized
+[0008.40] Log: Initializing Engine Completed
+[0008.40] Log: >>>>>>>>>>>>>> Initial startup: 8.40s <<<<<<<<<<<<<<<
+[0008.43] Error: Can't start an online game that hasn't been created
+[0102.20] Warning: PropensityTiltPawn_0 is outside the world bounds!
+[0104.16] ScriptWarning: bRestartLevel && !server, abort from RestartPlayer NM_Standalone
+	PropensityTiltGameInfo exampleentry.TheWorld:PersistentLevel.PropensityTiltGameInfo_0
+	Function Engine.GameInfo:RestartPlayer:00BB
+[0109.05] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
+	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
+	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
+[0109.05] Log: All Windows Closed
+[0109.05] Log: appRequestExit(0)
+[0109.06] Exit: Preparing to exit.
+[0109.11] Exit: Game engine shut down
+[0109.11] Exit: Windows client shut down
+[0109.12] Exit: XAudio2 Device shut down.
+[0109.15] Exit: Object subsystem successfully closed.
+[0109.16] Log: Shutting down FaceFX...
+[0109.16] Log: FaceFX shutdown.
+[0109.19] Exit: Exiting.
+[0109.19] Log: Log file closed, 06/11/15 17:53:55

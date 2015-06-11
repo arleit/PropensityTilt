@@ -1,0 +1,120 @@
+Log: Log file open, 06/11/15 17:22:16
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12791
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Jan 29 2015 19:35:41
+Init: Changelist: 2424394
+Init: Command line: editor 
+Init: Base directory: C:\UDK\PropensityTilt\Binaries\Win64\
+[0000.50] Init: Computer: WITR9ZWCH8
+[0000.50] Init: User: flahertyj6
+[0000.50] Init: CPU Page size=4096, Processors=8
+[0000.50] Init: High frequency timer resolution =2.630741 MHz
+[0000.50] Init: Memory total: Physical=7.6GB (7GB approx) Pagefile=8.7GB Virtual=8192.0GB
+[0000.50] Log: Steam Client API Disabled!
+[0000.55] Init: WinSock: I am WITR9ZWCH8 (192.168.211.1:0)
+[0000.55] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.56] Init: Object subsystem initialized
+[0000.68] Log: SystemSettings based on: SystemSettings
+[0000.99] Log: Found D3D11 adapter 0: Intel(R) HD Graphics 4000
+[0000.99] Log: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory
+[0001.52] Log: Found D3D11 adapter 1: NVIDIA Quadro K1000M 
+[0001.52] Log: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory
+[0001.52] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0001.52] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[0001.87] Log: Shader platform (RHI): PC-D3D-SM3
+[0013.99] Log: PhysX GPU Support: DISABLED
+[0014.01] Init: Initializing FaceFX...
+[0014.02] Init: FaceFX 1.7.4 initialized.
+[0015.78] Log: Failed to load 'UI_Fonts': Can't find file 'UI_Fonts'
+[0015.78] Log: Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
+[0015.79] Init: Finished loading startup packages in 1.19 seconds
+[0015.79] Log: 55333 objects as part of root set at end of initial load.
+[0015.79] Log: 0 out of 0 bytes used by permanent object pool.
+[0016.47] Log: Supported Consoles:
+[0016.47] Log:   IPhone
+[0016.47] Log:   Mac
+[0016.47] Log:   PC
+[0016.47] Log: Initializing Engine...
+[0016.67] Log: Encountered missing default brush - spawning new one
+[0016.70] Init: UEngine initialized
+[0016.71] Log: Primary PhysX scene will be in software.
+[0016.71] Log: Creating Primary PhysX Scene.
+[0016.71] Init: Transaction tracking system initialized
+[0016.72] Log: Can't find edit package 'OnlineSubsystemLive'
+[0016.73] Log: Can't find edit package 'OnlineSubsystemPlayerGameServices'
+[0016.75] Init: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0016.82] Init: XAudio2Device initialized.
+[0016.88] Init: Client initialized
+[0016.89] Init: Editor engine initialized
+[0017.02] Log: Initializing Engine Completed
+[0017.02] Log: >>>>>>>>>>>>>> Initial startup: 17.02s <<<<<<<<<<<<<<<
+[0017.20] Cmd: MODE MAPEXT=udk
+[0018.17] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimBlendByIdle': Failed to find object 'Class UTGame.UTAnimBlendByIdle'
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimBlendBySlotActive': Failed to find object 'Class UTGame.UTAnimBlendBySlotActive'
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimBlendByTurnInPlace': Failed to find object 'Class UTGame.UTAnimBlendByTurnInPlace'
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimBlendByWeapType': Failed to find object 'Class UTGame.UTAnimBlendByWeapType'
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimBlendByWeapType': Failed to find object 'Class UTGame.UTAnimBlendByWeapType'
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimNodeCopyBoneTranslation': Failed to find object 'Class UTGame.UTAnimNodeCopyBoneTranslation'
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Class UTGame.UTAnimNodeSequence'
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Class UTGame.UTAnimNodeSequence'
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Class UTGame.UTAnimNodeSequence'
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Class UTGame.UTAnimNodeSequence'
+[0018.78] Warning: Failed to load 'Class UTGame.UTAnimNodeSeqWeap': Failed to find object 'Class UTGame.UTAnimNodeSeqWeap'
+[0018.79] Warning: Failed to load 'Class UTGame.UTAnimNodeSeqWeap': Failed to find object 'Class UTGame.UTAnimNodeSeqWeap'
+[0018.79] Warning: Failed to load 'Class utgamecontent.UTGameCrowdAgent': Failed to find object 'Class utgamecontent.UTGameCrowdAgent'
+[0018.94] Log: Game asset database maintenance completed successfully.
+[0020.82] Log: Found D3D11 adapter 0: Intel(R) HD Graphics 4000
+[0020.82] Log: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory
+[0021.14] Log: Found D3D11 adapter 1: NVIDIA Quadro K1000M 
+[0021.14] Log: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory
+[0021.14] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0021.14] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[0023.65] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0023.88] Log: Encountered missing default brush - spawning new one
+[0024.06] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0024.18] Log: -- Checking Building LODs
+[0024.18] Log: Primary PhysX scene will be in software.
+[0024.18] Log: Creating Primary PhysX Scene.
+[0024.19] Log: Finished looking for orphan Actors (0.002 secs)
+[0024.19] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0024.19] Log: TIMER ALL OF INIT : [10.157556]
+[0070.16] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\template_afternoon.umap" TEMPLATE=1
+[0070.20] Log: Encountered missing default brush - spawning new one
+[0070.26] Log: New File, Existing Package (Package Untitled_4, Package template_afternoon)
+[0070.30] Log: -- Checking Building LODs
+[0070.30] Log: Primary PhysX scene will be in software.
+[0070.30] Log: Creating Primary PhysX Scene.
+[0070.30] Log: Finished looking for orphan Actors (0.001 secs)
+[0070.31] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0372.90] Log: Save=43.312512
+[0372.90] Log: Moving 'C:\UDK\PropensityTilt\Binaries\Win64\..\..\UDKGame\Autosaves\Untitled_4_Auto1_save.tmp' to 'C:\UDK\PropensityTilt\Binaries\Win64\..\..\UDKGame\Autosaves\Untitled_4_Auto1.udk'
+[0439.69] Cmd: MODE WIDGETMODECYCLE
+[0440.41] Cmd: MODE WIDGETMODECYCLE
+[0441.21] Cmd: MODE WIDGETMODECYCLE
+[0441.98] Cmd: MODE WIDGETMODECYCLE
+[0442.83] Cmd: MODE WIDGETMODECYCLE
+[0507.13] Log: Increasing size of CachedMaterials to 1 for Terrain_0
+[0532.42] Cmd: DELETE
+[0532.42] Cmd: ACTOR DELETE
+[0532.48] Log: Deleted 1 Actors (0.061 secs)
+[0544.55] Cmd: TRANSACTION UNDO
+[0544.55] Log: Undo Delete Actors
+[0555.49] Log: Encountered missing default brush - spawning new one
+[0555.55] Log: Encountered missing default brush - spawning new one
+[0555.56] Log: Primary PhysX scene will be in software.
+[0555.56] Log: Creating Primary PhysX Scene.
+[0563.05] Log: Increasing size of CachedMaterials to 1 for Terrain_1
+[0579.07] Cmd: ACTOR LEVELCURRENT
+[0647.99] Cmd: MODE WIDGETMODECYCLE
+[0648.59] Cmd: MODE WIDGETMODECYCLE
+[0649.16] Cmd: MODE WIDGETMODECYCLE
+[0787.71] Cmd: ACTOR HIDE SELECTED
+[0788.24] Cmd: ACTOR HIDE SELECTED
+[0789.35] Cmd: ACTOR HIDE SELECTED
+[0848.92] Log: Save=37.821283
+[0848.92] Log: Moving 'C:\UDK\PropensityTilt\Binaries\Win64\..\..\UDKGame\Autosaves\Untitled_6_Auto2_save.tmp' to 'C:\UDK\PropensityTilt\Binaries\Win64\..\..\UDKGame\Autosaves\Untitled_6_Auto2.udk'
+[0848.95] Log: Save=30.083539
+[0848.95] Log: Compressing '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\

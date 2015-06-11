@@ -1,0 +1,21 @@
+Log: Log file open, 06/11/15 17:19:38
+Log: appRequestExit(0)
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12791
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Jan 29 2015 19:31:11
+Init: Changelist: 2424394
+Init: Command line: -firstinstall -LanguageForCooking=INT -installfw -namefw=UDK
+Init: Base directory: C:\UDK\PropensityTilt\Binaries\Win32\
+[0001.11] Init: Computer: WITR9ZWCH8
+[0001.11] Init: User: flahertyj6
+[0001.11] Init: CPU Page size=4096, Processors=8
+[0001.11] Init: High frequency timer resolution =2.630741 MHz
+[0001.11] Init: Memory total: Physical=7.6GB (7GB approx) Pagefile=8.7GB Virtual=4.0GB
+[0001.11] Log: Steam Client API initialized 0
+[0001.12] Log: Steam Game Server API initialized 0
+[0001.15] Init: WinSock: I am WITR9ZWCH8 (192.168.211.1:0)
+[0001.15] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0001.15] Init: Object subsystem initialized
+[0001.15] Log: Last hardware survey: Ver=-1, Date=0. Uploading again.
