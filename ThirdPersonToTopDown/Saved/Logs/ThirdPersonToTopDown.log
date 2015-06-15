@@ -784,4 +784,401 @@ ntdll.dll!UnknownFunction (0x000007fb153c02a9) + 0 bytes [UnknownFile:0]
 [2015.06.15-05.24.34:507][719]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_BT0CFCE6E7455057D9567701B8078AE4CD.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_BT.uasset'
 [2015.06.15-05.28.45:099][497]BlueprintLog: New page: Compile AgroCheck
 [2015.06.15-05.28.45:260][497]BlueprintEditorCompileResults: Info [9351.13] Compile of AgroCheck successful! [in 160 ms]
-[2015.06.15-05.35.39:830][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' 
+[2015.06.15-05.35.39:830][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.072
+[2015.06.15-05.35.39:879][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/AgroCheck] ([1] browsable assets)...
+[2015.06.15-05.35.39:894][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/AgroCheck]
+[2015.06.15-05.35.40:081][242]LogSavePackage: Save=159.465591ms
+[2015.06.15-05.35.40:083][242]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck_Auto36A8D81C7450A7B6AFE0929B7D62D4928.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/AgroCheck_Auto3.uasset'
+[2015.06.15-05.35.40:098][242]LogFileHelpers: Auto-saving content packages took 0.268
+[2015.06.15-05.40.29:781][672]LogSavePackage: Save=4351.694824ms
+[2015.06.15-05.40.29:781][672]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap5A0BFEF34202C6F259A4378519871568.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-05.50.29:126][955]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.058
+[2015.06.15-05.50.29:173][955]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/AgroCheck] ([1] browsable assets)...
+[2015.06.15-05.50.29:191][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/AgroCheck]
+[2015.06.15-05.50.29:358][955]LogSavePackage: Save=144.900894ms
+[2015.06.15-05.50.29:360][955]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck_Auto4F02E66B748191D479F9896904D9F8B7E.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/AgroCheck_Auto4.uasset'
+[2015.06.15-05.50.29:373][955]LogFileHelpers: Auto-saving content packages took 0.247
+[2015.06.15-06.00.30:268][417]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.066
+[2015.06.15-06.00.30:313][417]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/AgroCheck] ([1] browsable assets)...
+[2015.06.15-06.00.30:319][417]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/AgroCheck]
+[2015.06.15-06.00.30:490][417]LogSavePackage: Save=149.269241ms
+[2015.06.15-06.00.30:492][417]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck_Auto55186FC394D0F7B56A9BE98A8BA5A65CF.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/AgroCheck_Auto5.uasset'
+[2015.06.15-06.00.30:508][417]LogFileHelpers: Auto-saving content packages took 0.240
+[2015.06.15-06.09.40:913][308]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.15-06.10.31:307][ 78]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.060
+[2015.06.15-06.10.31:358][ 78]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/AgroCheck] ([1] browsable assets)...
+[2015.06.15-06.10.31:368][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/AgroCheck]
+[2015.06.15-06.10.31:580][ 78]LogSavePackage: Save=185.390213ms
+[2015.06.15-06.10.31:582][ 78]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck_Auto6F6219EFD49629F775DF56F964C78CD59.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/AgroCheck_Auto6.uasset'
+[2015.06.15-06.10.31:600][ 78]LogFileHelpers: Auto-saving content packages took 0.293
+[2015.06.15-06.15.27:050][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AgroCheck" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset" SILENT=true
+[2015.06.15-06.15.27:169][942]LogSavePackage: Save=102.128181ms
+[2015.06.15-06.15.27:169][942]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheckEEB5E7AA4C1C28B9971946A60DEB2BEA.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset'
+[2015.06.15-06.20.35:122][ 37]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.055
+[2015.06.15-06.20.35:167][ 37]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/AgroCheck] ([1] browsable assets)...
+[2015.06.15-06.20.35:188][ 37]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/AgroCheck]
+[2015.06.15-06.20.35:504][ 37]LogSavePackage: Save=288.751129ms
+[2015.06.15-06.20.35:506][ 37]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck_Auto7CDD0EC1949698AD9518E3EB3FB602A57.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/AgroCheck_Auto7.uasset'
+[2015.06.15-06.20.35:522][ 37]LogFileHelpers: Auto-saving content packages took 0.400
+[2015.06.15-06.29.31:624][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AgroCheck" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset" SILENT=true
+[2015.06.15-06.29.31:879][610]LogSavePackage: Save=234.673248ms
+[2015.06.15-06.29.31:879][610]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck8C6EBEB64BD52E1BC56E7D863B32035E.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset'
+[2015.06.15-06.30.51:620][804]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.064
+[2015.06.15-06.30.51:667][804]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/AgroCheck] ([1] browsable assets)...
+[2015.06.15-06.30.51:687][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/AgroCheck]
+[2015.06.15-06.30.52:065][804]LogSavePackage: Save=354.934723ms
+[2015.06.15-06.30.52:066][804]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck_Auto88970EC764C27EE0BBC3008B6B27BB25C.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/AgroCheck_Auto8.uasset'
+[2015.06.15-06.30.52:082][804]LogFileHelpers: Auto-saving content packages took 0.462
+[2015.06.15-06.32.04:229][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AgroCheck" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset" SILENT=true
+[2015.06.15-06.32.04:500][430]LogSavePackage: Save=253.122787ms
+[2015.06.15-06.32.04:500][430]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck76A919AB41049DC70D6469985E435950.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset'
+[2015.06.15-06.32.05:801][523]BlueprintLog: New page: Compile AgroCheck
+[2015.06.15-06.32.06:069][523]BlueprintEditorCompileResults: Info [3151.94] Compile of AgroCheck successful! [in 266 ms]
+[2015.06.15-06.34.42:229][632]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDown2D/BTTask_BlueprintBase_New
+[2015.06.15-06.34.56:928][479]LogMetaData: Removing '/Game/TopDown2D/RapidMoveTo.SKEL_RapidMoveTo_C' ref from Metadata '/Game/TopDown2D/BTTask_BlueprintBase_New.PackageMetaData'
+[2015.06.15-06.34.56:928][479]LogMetaData: Removing '/Game/TopDown2D/RapidMoveTo.RapidMoveTo_C' ref from Metadata '/Game/TopDown2D/BTTask_BlueprintBase_New.PackageMetaData'
+[2015.06.15-06.34.57:011][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/RapidMoveTo" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/RapidMoveTo.uasset" SILENT=true
+[2015.06.15-06.34.57:023][479]LogSavePackage: Save=8.093531ms
+[2015.06.15-06.34.57:023][479]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/RapidMoveTo290523144FA3D253CFF0B58C49AC780C.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/RapidMoveTo.uasset'
+[2015.06.15-06.34.57:417][481]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDown2D/RapidMoveTo
+[2015.06.15-06.40.55:554][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.056
+[2015.06.15-06.40.55:693][ 51]LogSavePackage: Save=127.753265ms
+[2015.06.15-06.40.55:694][ 51]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/BTTask_BlueprintBase_New_Auto9B697BB564D1374E0B7FFCF99E197D7EE.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/BTTask_BlueprintBase_New_Auto9.uasset'
+[2015.06.15-06.40.55:755][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/RapidMoveTo] ([1] browsable assets)...
+[2015.06.15-06.40.55:755][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/RapidMoveTo]
+[2015.06.15-06.40.55:958][ 51]LogSavePackage: Save=161.674850ms
+[2015.06.15-06.40.55:960][ 51]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/RapidMoveTo_Auto916890FA74D51399E5C8E28991C13BD9D.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/RapidMoveTo_Auto9.uasset'
+[2015.06.15-06.40.55:975][ 51]LogFileHelpers: Auto-saving content packages took 0.422
+[2015.06.15-06.43.17:344][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/RapidMoveTo" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/RapidMoveTo.uasset" SILENT=true
+[2015.06.15-06.43.17:446][ 14]LogSavePackage: Save=83.936363ms
+[2015.06.15-06.43.17:446][ 14]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/RapidMoveTo2CEA5198434E3610C2FE0DB4B29DEAD9.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/RapidMoveTo.uasset'
+[2015.06.15-06.43.18:118][ 74]BlueprintLog: New page: Compile RapidMoveTo
+[2015.06.15-06.43.18:362][ 74]BlueprintEditorCompileResults: Info [3824.24] Compile of RapidMoveTo successful! [in 244 ms]
+[2015.06.15-06.43.36:756][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/RapidMoveTo" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/RapidMoveTo.uasset" SILENT=true
+[2015.06.15-06.43.36:869][823]LogSavePackage: Save=95.326683ms
+[2015.06.15-06.43.36:869][823]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/RapidMoveTo29B5B8254B623A8C387451BA9F941AB3.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/RapidMoveTo.uasset'
+[2015.06.15-06.46.40:165][803]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDown2D/BTDecorator_BlueprintBase_New
+[2015.06.15-06.47.50:418][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005113A52480
+[2015.06.15-06.47.50:444][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005114ADCCC0
+[2015.06.15-06.47.50:444][ 31]LogMetaData: Removing '/Game/TopDown2D/CloseEnough.SKEL_CloseEnough_C' ref from Metadata '/Game/TopDown2D/BTDecorator_BlueprintBase_New.PackageMetaData'
+[2015.06.15-06.47.50:444][ 31]LogMetaData: Removing '/Game/TopDown2D/CloseEnough.CloseEnough_C' ref from Metadata '/Game/TopDown2D/BTDecorator_BlueprintBase_New.PackageMetaData'
+[2015.06.15-06.47.50:522][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/CloseEnough" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset" SILENT=true
+[2015.06.15-06.47.50:535][ 31]LogSavePackage: Save=8.364177ms
+[2015.06.15-06.47.50:535][ 31]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/CloseEnough2808F81341975179B3C7F9ADDCCBC554.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset'
+[2015.06.15-06.47.50:812][ 32]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/TopDown2D/CloseEnough
+[2015.06.15-06.49.28:498][735]LogBlueprint:Warning: [compiler] Warning ReturnNode Exec pin has no connections on  EdGraphPin_17488 
+[2015.06.15-06.49.28:498][735]LogBlueprint:Error: [compiler] Error Cannot override 'BTDecorator_BlueprintBase::PerformConditionCheck' at  Perform Condition Check  which was declared in a parent with a different signature
+[2015.06.15-06.49.28:664][735]LogBlueprint:Warning: [compiler] Warning [4194.54] Compile of CloseEnough failed. 1 Fatal Issue(s) 1 Warning(s) [in 171 ms]
+[2015.06.15-06.49.28:664][735]LogBlueprint:Warning: [compiler] Warning [4194.54] Compile of CloseEnough failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.06.15-06.49.28:665][735]LogBlueprint:Warning: [compiler] Warning [4194.54] Compile of CloseEnough failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.06.15-06.49.28:679][735]LogBlueprint:Warning: [compiler] Warning [4194.55] Compile of CloseEnough failed. 1 Fatal Issue(s) 4 Warning(s) [in 13 ms]
+[2015.06.15-06.49.28:679][735]LogBlueprint:Warning: [compiler] Warning [4194.55] Compile of CloseEnough failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.06.15-06.49.28:679][735]LogBlueprint:Warning: [compiler] Warning [4194.55] Compile of CloseEnough failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.15-06.49.38:231][281]LogBlueprint:Warning: [compiler] Warning ReturnNode Exec pin has no connections on  EdGraphPin_17488 
+[2015.06.15-06.49.38:232][281]LogBlueprint:Error: [compiler] Error Cannot override 'BTDecorator_BlueprintBase::PerformConditionCheck' at  Perform Condition Check  which was declared in a parent with a different signature
+[2015.06.15-06.49.38:392][281]LogBlueprint:Warning: [compiler] Warning [4204.27] Compile of CloseEnough failed. 1 Fatal Issue(s) 1 Warning(s) [in 168 ms]
+[2015.06.15-06.49.38:392][281]LogBlueprint:Warning: [compiler] Warning [4204.27] Compile of CloseEnough failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.06.15-06.49.38:393][281]LogBlueprint:Warning: [compiler] Warning [4204.27] Compile of CloseEnough failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.06.15-06.49.38:407][281]LogBlueprint:Warning: [compiler] Warning [4204.28] Compile of CloseEnough failed. 1 Fatal Issue(s) 4 Warning(s) [in 13 ms]
+[2015.06.15-06.49.38:407][281]LogBlueprint:Warning: [compiler] Warning [4204.28] Compile of CloseEnough failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.06.15-06.49.38:407][281]LogBlueprint:Warning: [compiler] Warning [4204.28] Compile of CloseEnough failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.15-06.50.29:134][752]LogBlueprint:Warning: [compiler] Warning ReturnNode Exec pin has no connections on  EdGraphPin_17488 
+[2015.06.15-06.50.29:135][752]LogBlueprint:Error: [compiler] Error Cannot override 'BTDecorator_BlueprintBase::PerformConditionCheck' at  Perform Condition Check  which was declared in a parent with a different signature
+[2015.06.15-06.50.29:136][752]LogBlueprint:Warning: [compiler] Warning Can't parse default value 'None' for  (none) . Property: AcceptableDistance.
+[2015.06.15-06.50.29:303][752]LogBlueprint:Warning: [compiler] Warning [4255.18] Compile of CloseEnough failed. 1 Fatal Issue(s) 2 Warning(s) [in 176 ms]
+[2015.06.15-06.50.29:303][752]LogBlueprint:Warning: [compiler] Warning [4255.18] Compile of CloseEnough failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.06.15-06.50.29:303][752]LogBlueprint:Warning: [compiler] Warning [4255.18] Compile of CloseEnough failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.06.15-06.50.29:318][752]LogBlueprint:Warning: [compiler] Warning [4255.19] Compile of CloseEnough failed. 1 Fatal Issue(s) 5 Warning(s) [in 14 ms]
+[2015.06.15-06.50.29:318][752]LogBlueprint:Warning: [compiler] Warning [4255.19] Compile of CloseEnough failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.15-06.50.29:318][752]LogBlueprint:Warning: [compiler] Warning [4255.19] Compile of CloseEnough failed. 1 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.06.15-06.51.20:549][488]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.056
+[2015.06.15-06.51.20:681][488]LogSavePackage: Save=121.245216ms
+[2015.06.15-06.51.20:683][488]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/BTDecorator_BlueprintBase_New_Auto0D7B885E947F5B76E69FFE2BB11346845.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/BTDecorator_BlueprintBase_New_Auto0.uasset'
+[2015.06.15-06.51.20:744][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/CloseEnough] ([1] browsable assets)...
+[2015.06.15-06.51.20:744][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/CloseEnough]
+[2015.06.15-06.51.20:920][488]LogSavePackage: Save=136.016327ms
+[2015.06.15-06.51.20:922][488]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/CloseEnough_Auto0D32437474A49319B821C77BC4F920305.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/CloseEnough_Auto0.uasset'
+[2015.06.15-06.51.20:938][488]LogFileHelpers: Auto-saving content packages took 0.389
+[2015.06.15-06.51.28:630][893]LogBlueprint:Warning: [compiler] Warning ReturnNode Exec pin has no connections on  EdGraphPin_17488 
+[2015.06.15-06.51.28:630][893]LogBlueprint:Error: [compiler] Error Cannot override 'BTDecorator_BlueprintBase::PerformConditionCheck' at  Perform Condition Check  which was declared in a parent with a different signature
+[2015.06.15-06.51.28:793][893]LogBlueprint:Warning: [compiler] Warning [4314.67] Compile of CloseEnough failed. 1 Fatal Issue(s) 1 Warning(s) [in 173 ms]
+[2015.06.15-06.51.28:794][893]LogBlueprint:Warning: [compiler] Warning [4314.67] Compile of CloseEnough failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.06.15-06.51.28:794][893]LogBlueprint:Warning: [compiler] Warning [4314.67] Compile of CloseEnough failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.06.15-06.51.28:809][893]LogBlueprint:Warning: [compiler] Warning [4314.68] Compile of CloseEnough failed. 1 Fatal Issue(s) 4 Warning(s) [in 14 ms]
+[2015.06.15-06.51.28:809][893]LogBlueprint:Warning: [compiler] Warning [4314.68] Compile of CloseEnough failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.06.15-06.51.28:809][893]LogBlueprint:Warning: [compiler] Warning [4314.68] Compile of CloseEnough failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.15-06.51.36:199][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/CloseEnough" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset" SILENT=true
+[2015.06.15-06.51.36:243][429]LogSavePackage: Save=25.687040ms
+[2015.06.15-06.51.36:243][429]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/CloseEnough7315C5864DB995AED8B87089AE907D02.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset'
+[2015.06.15-06.53.40:339][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/CloseEnough" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset" SILENT=true
+[2015.06.15-06.53.40:402][487]LogSavePackage: Save=44.629978ms
+[2015.06.15-06.53.40:402][487]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/CloseEnough7CB337414AAE4DDDBC4F70A3599AF493.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset'
+[2015.06.15-06.54.41:642][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/CloseEnough" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset" SILENT=true
+[2015.06.15-06.54.41:716][575]LogSavePackage: Save=56.107723ms
+[2015.06.15-06.54.41:716][575]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/CloseEnoughF53750C24E94B595F157129812E00726.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset'
+[2015.06.15-06.59.48:726][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/CloseEnough" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset" SILENT=true
+[2015.06.15-06.59.48:834][540]LogSavePackage: Save=88.040527ms
+[2015.06.15-06.59.48:835][540]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/CloseEnough8A8A99434D55C2EFBB78C1A8F8EFB73B.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset'
+[2015.06.15-06.59.49:702][616]BlueprintLog: New page: Compile CloseEnough
+[2015.06.15-06.59.49:897][616]BlueprintEditorCompileResults: Info [4815.77] Compile of CloseEnough successful! [in 194 ms]
+[2015.06.15-07.01.23:105][491]LogBehaviorTree:Warning: Blackboard asset (Follower_Blackboard) has (Follower_Blackboard) in parent chain! Clearing value to avoid cycle.
+[2015.06.15-07.01.33:379][602]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.056
+[2015.06.15-07.01.33:426][602]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/Follower_Blackboard] ([1] browsable assets)...
+[2015.06.15-07.01.33:439][602]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Follower_Blackboard]
+[2015.06.15-07.01.33:590][602]LogSavePackage: Save=122.511780ms
+[2015.06.15-07.01.33:592][602]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_Blackboard_Auto13524836C4F3B88D7A0A9E38F9E94B374.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Follower_Blackboard_Auto1.uasset'
+[2015.06.15-07.01.33:609][602]LogFileHelpers: Auto-saving content packages took 0.230
+[2015.06.15-07.06.28:596][476]Cmd: TRANSACTION UNDO
+[2015.06.15-07.06.28:596][476]LogEditorTransaction: Undo Delete current selection
+[2015.06.15-07.06.29:176][485]Cmd: TRANSACTION UNDO
+[2015.06.15-07.06.29:176][485]LogEditorTransaction: Undo Edit Selected Key Name
+[2015.06.15-07.06.29:952][531]Cmd: TRANSACTION UNDO
+[2015.06.15-07.06.29:952][531]LogEditorTransaction: Undo Edit Selected Key ID
+[2015.06.15-07.06.30:691][579]Cmd: TRANSACTION UNDO
+[2015.06.15-07.06.30:691][579]LogEditorTransaction: Undo Edit Selected Key Type
+[2015.06.15-07.09.35:411][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Follower_BT" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_BT.uasset" SILENT=true
+[2015.06.15-07.09.35:496][989]LogSavePackage: Save=36.962940ms
+[2015.06.15-07.09.35:496][989]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_BT7D05DB1F40481A16E226AC987D2C7C02.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_BT.uasset'
+[2015.06.15-07.09.38:947][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/CloseEnough" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset" SILENT=true
+[2015.06.15-07.09.39:061][233]LogSavePackage: Save=92.194489ms
+[2015.06.15-07.09.39:061][233]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/CloseEnough8A359CEF452D1D8943348FB5634E5EA2.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/CloseEnough.uasset'
+[2015.06.15-07.09.39:529][266]BlueprintLog: New page: Compile CloseEnough
+[2015.06.15-07.09.39:727][266]BlueprintEditorCompileResults: Info [5405.60] Compile of CloseEnough successful! [in 197 ms]
+[2015.06.15-07.09.41:994][466]LogSavePackage: Save=8.659151ms
+[2015.06.15-07.09.41:994][466]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_Blackboard16004451420E5A048D843082114F8706.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_Blackboard.uasset'
+[2015.06.15-07.09.47:107][856]BlueprintLog: New page: Compile AI_2d_character
+[2015.06.15-07.09.47:344][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000513B4CF4C0
+[2015.06.15-07.09.47:366][856]BlueprintEditorCompileResults: Info [5413.24] Compile of AI_2d_character successful! [in 258 ms]
+[2015.06.15-07.09.48:080][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AI_2d_character" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AI_2d_character.uasset" SILENT=true
+[2015.06.15-07.09.48:160][894]LogSavePackage: Save=56.177666ms
+[2015.06.15-07.09.48:160][894]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AI_2d_characterD4BEB8EB4488E6F0D01481BBAE4F07B2.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AI_2d_character.uasset'
+[2015.06.15-07.09.50:735][ 77]BlueprintLog: New page: Compile Follower_AI_CON
+[2015.06.15-07.09.50:927][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050CA2127A0
+[2015.06.15-07.09.50:999][ 77]BlueprintEditorCompileResults: Info [5416.87] Compile of Follower_AI_CON successful! [in 263 ms]
+[2015.06.15-07.09.51:604][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Follower_AI_CON" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_AI_CON.uasset" SILENT=true
+[2015.06.15-07.09.51:711][120]LogSavePackage: Save=81.502068ms
+[2015.06.15-07.09.51:711][120]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_AI_CONB8FBC5CC43AE9340B13CFA8DDBE1486E.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_AI_CON.uasset'
+[2015.06.15-07.09.56:781][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050B3A659E0
+[2015.06.15-07.10.02:438][434]LogSavePackage: Save=4578.687988ms
+[2015.06.15-07.10.02:438][434]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMapB5C1F7924B3B930029658F8D49D1282B.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-07.10.12:613][649]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.15-07.10.12:624][649]LogPlayLevel: [PIE] Compiling AgroCheck before PIE...
+[2015.06.15-07.10.12:856][649]LogPlayLevel: [PIE] Compiling RapidMoveTo before PIE...
+[2015.06.15-07.10.13:041][649]LogPlayLevel: [PIE] Compiling CloseEnough before PIE...
+[2015.06.15-07.10.13:217][649]LogPlayLevel: PIE:  Blueprint regeneration took 603 ms (3 blueprints)
+[2015.06.15-07.10.13:218][649]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 11:10:13 PM)
+[2015.06.15-07.10.13:338][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120071s)
+[2015.06.15-07.10.13:340][649]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2015.06.15-07.10.13:340][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.121907s)
+[2015.06.15-07.10.13:389][649]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-07.10.13:395][649]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-07.10.13:416][649]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.15-03.10.13
+[2015.06.15-07.10.13:421][649]LogWorld: Bringing up level for play took: 0.024793
+[2015.06.15-07.10.13:429][649]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.248
+[2015.06.15-07.10.46:073][297]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050ECCF8EA0
+[2015.06.15-07.11.02:922][662]MapCheck: New page: Map Check
+[2015.06.15-07.11.02:955][662]Cmd: MAP REBUILD ALLVISIBLE
+[2015.06.15-07.11.02:955][662]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.06.15-07.11.03:180][662]LightingResults: New page: Lighting Build - Jun 14, 2015, 11:11:03 PM
+[2015.06.15-07.11.07:771][662]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.06.15-07.11.07:771][662]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.06.15-07.11.07:771][662]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.06.15-07.11.07:771][662]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.06.15-07.11.07:771][662]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.06.15-07.11.08:663][662]LogEditorBuildUtils: Build time 0:00:05
+[2015.06.15-07.11.08:770][663]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling. 
+[2015.06.15-07.11.08:807][663]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling. 
+[2015.06.15-07.11.08:977][664]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ceramic_Tile_Checker, compiling. 
+[2015.06.15-07.11.08:985][664]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ceramic_Tile_Checker, compiling. 
+[2015.06.15-07.11.09:045][665]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2015.06.15-07.11.09:054][665]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2015.06.15-07.12.19:004][965]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.06.15-07.12.26:137][965]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.06.15-07.12.27:377][967]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.06.15-07.13.15:211][217]Job is a success!
+[2015.06.15-07.14.15:654][218]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.06.15-07.14.22:480][218]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.06.15-07.14.22:487][218]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.06.15-07.14.22:497][218]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.06.15-07.14.22:511][218]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.06.15-07.14.22:539][218]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.06.15-07.14.22:692][218]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.06.15-07.14.22:954][218]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.06.15-07.14.22:992][218]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.06.15-07.14.23:119][218]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.06.15-07.14.23:627][218]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.06.15-07.14.24:630][218]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.06.15-07.14.25:147][218]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.06.15-07.14.26:196][218]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.06.15-07.14.26:677][218]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.06.15-07.14.27:696][218]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.06.15-07.14.28:179][218]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.06.15-07.14.29:291][218]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.06.15-07.14.36:987][218]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2015.06.15-07.14.39:516][218]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2015.06.15-07.14.41:550][218]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2015.06.15-07.14.43:626][218]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2015.06.15-07.14.45:256][218]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2015.06.15-07.14.45:592][218]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2015.06.15-07.14.45:779][218]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2015.06.15-07.14.45:801][218]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2015.06.15-07.14.45:907][218]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2015.06.15-07.14.49:684][218]Lightmass on WITPK17B0D: 3:30 min total, 1.02 sec importing, 11 ms setup, 4.62 sec photons, 3:23 min processing, 0 ms extra exporting [243/243 mappings]. Threads: 23:43 min total, 4:11 min processing.
+[2015.06.15-07.14.50:427][218]LogStaticLightingSystem: Illumination: 3:37 min (36.7 sec encoding lightmaps)
+[2015.06.15-07.14.50:428][218]LogStaticLightingSystem: Lightmap texture memory:  43.1 MB (43.0 MB streaming, 0.1 MB non-streaming), 18 textures
+[2015.06.15-07.14.50:428][218]LogStaticLightingSystem: Shadowmap texture memory: 171.6 MB (171.4 MB streaming, 0.2 MB non-streaming), 15 textures
+[2015.06.15-07.14.51:289][219]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.06.15-07.14.51:438][219]MapCheck: New page: ThirdPersonExampleMap - Jun 14, 2015, 11:14:51 PM
+[2015.06.15-07.15.05:041][219]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 13,662.402ms to complete.
+[2015.06.15-07.15.30:011][652]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-07.15.30:028][652]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 11:15:30 PM)
+[2015.06.15-07.15.31:695][652]LogPlayLevel: PIE: StaticDuplicateObject took: (1.491585s)
+[2015.06.15-07.15.32:067][652]LogPlayLevel: PIE: World Init took: (0.372038s)
+[2015.06.15-07.15.32:067][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (1.864135s)
+[2015.06.15-07.15.32:476][652]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-07.15.32:626][652]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-07.15.32:656][652]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.15-03.15.32
+[2015.06.15-07.15.32:839][652]LogWorld: Bringing up level for play took: 0.203025
+[2015.06.15-07.15.32:951][652]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 3.771
+[2015.06.15-07.17.25:365][ 27]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.HQ_Lightmap1_2. Streaming mips will be recached.
+[2015.06.15-07.17.25:386][ 27]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.06.15-07.17.27:038][ 27]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.HQ_Lightmap1_3. Streaming mips will be recached.
+[2015.06.15-07.17.27:049][ 27]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.06.15-07.17.31:009][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000513F774E00
+[2015.06.15-07.17.52:080][722]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.15-07.18.29:115][236]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.HQ_Lightmap1_5. Streaming mips will be recached.
+[2015.06.15-07.18.29:237][236]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.06.15-07.18.30:652][237]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.HQ_Lightmap1_4. Streaming mips will be recached.
+[2015.06.15-07.18.30:724][237]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.06.15-07.21.13:311][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/TopDownCharacter" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset" SILENT=true
+[2015.06.15-07.21.13:554][728]LogSavePackage: Save=149.738312ms
+[2015.06.15-07.21.13:554][728]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacter06960C974A4A2DD4872E66AFB0259C99.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset'
+[2015.06.15-07.21.14:688][794]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.15-07.21.15:211][794]BlueprintEditorCompileResults: Info [6101.09] Compile of TopDownCharacter successful! [in 522 ms]
+[2015.06.15-07.21.45:940][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Follower_AI_CON" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_AI_CON.uasset" SILENT=true
+[2015.06.15-07.21.46:046][ 97]LogSavePackage: Save=79.275322ms
+[2015.06.15-07.21.46:047][ 97]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_AI_CON66836CBB4E7811BF2F0CE4BC7DE073B5.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_AI_CON.uasset'
+[2015.06.15-07.21.46:700][133]BlueprintLog: New page: Compile Follower_AI_CON
+[2015.06.15-07.21.46:959][133]BlueprintEditorCompileResults: Info [6132.83] Compile of Follower_AI_CON successful! [in 258 ms]
+[2015.06.15-07.21.56:756][313]LogSavePackage: Save=4479.884766ms
+[2015.06.15-07.21.56:756][313]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMapD73E229F41D5B1607A79CEAA16E1C08E.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-07.21.58:662][344]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.15-07.21.58:671][344]LogPlayLevel: [PIE] Compiling AgroCheck before PIE...
+[2015.06.15-07.21.58:904][344]LogPlayLevel: [PIE] Compiling RapidMoveTo before PIE...
+[2015.06.15-07.21.59:094][344]LogPlayLevel: [PIE] Compiling CloseEnough before PIE...
+[2015.06.15-07.21.59:263][344]LogPlayLevel: PIE:  Blueprint regeneration took 601 ms (3 blueprints)
+[2015.06.15-07.21.59:263][344]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 11:21:59 PM)
+[2015.06.15-07.21.59:375][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.110157s)
+[2015.06.15-07.21.59:382][344]LogPlayLevel: PIE: World Init took: (0.007283s)
+[2015.06.15-07.21.59:382][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.117967s)
+[2015.06.15-07.21.59:440][344]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-07.21.59:446][344]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-07.21.59:466][344]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.15-03.21.59
+[2015.06.15-07.21.59:471][344]LogWorld: Bringing up level for play took: 0.023897
+[2015.06.15-07.21.59:478][344]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.298
+[2015.06.15-07.22.30:792][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000510F25B600
+[2015.06.15-07.23.32:091][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-07.27.25:840][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/TopDownCharacter" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset" SILENT=true
+[2015.06.15-07.27.26:010][950]LogSavePackage: Save=145.515549ms
+[2015.06.15-07.27.26:010][950]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacterB55B42C5448CEF2E547F5BA528E559AC.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset'
+[2015.06.15-07.27.26:771][991]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.15-07.27.27:023][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005131CCCD60
+[2015.06.15-07.27.27:023][991]BlueprintEditorCompileResults: Info [6472.90] Compile of TopDownCharacter successful! [in 251 ms]
+[2015.06.15-07.27.35:987][150]LogSavePackage: Save=4447.899902ms
+[2015.06.15-07.27.35:987][150]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMapD94298C94A705CEC90BEF0B2C3162EF8.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-07.27.38:445][193]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-07.27.38:445][193]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 11:27:38 PM)
+[2015.06.15-07.27.38:492][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046155s)
+[2015.06.15-07.27.38:495][193]LogPlayLevel: PIE: World Init took: (0.002492s)
+[2015.06.15-07.27.38:495][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.049174s)
+[2015.06.15-07.27.38:556][193]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-07.27.38:562][193]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-07.27.38:582][193]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.15-03.27.38
+[2015.06.15-07.27.38:587][193]LogWorld: Bringing up level for play took: 0.024189
+[2015.06.15-07.27.38:595][193]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.585
+[2015.06.15-07.27.57:869][160]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050A11D1F80
+[2015.06.15-07.28.39:075][161]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.15-07.28.39:294][161]BlueprintEditorCompileResults: Info [6545.17] Compile of TopDownCharacter successful! [in 217 ms]
+[2015.06.15-07.28.40:096][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/TopDownCharacter" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset" SILENT=true
+[2015.06.15-07.28.40:261][197]LogSavePackage: Save=143.391052ms
+[2015.06.15-07.28.40:261][197]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacter4FBD048C4A82154CA69A54AC1965B368.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset'
+[2015.06.15-07.28.47:553][273]LogSavePackage: Save=4429.359863ms
+[2015.06.15-07.28.47:553][273]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap586B74984135C6D1E0FB5AB88C21148D.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-07.28.49:392][304]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-07.28.49:393][304]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 11:28:49 PM)
+[2015.06.15-07.28.49:450][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050815s)
+[2015.06.15-07.28.49:452][304]LogPlayLevel: PIE: World Init took: (0.001998s)
+[2015.06.15-07.28.49:452][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.053359s)
+[2015.06.15-07.28.49:519][304]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-07.28.49:524][304]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-07.28.49:545][304]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.15-03.28.49
+[2015.06.15-07.28.49:550][304]LogWorld: Bringing up level for play took: 0.024377
+[2015.06.15-07.28.49:558][304]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.378
+[2015.06.15-07.29.21:641][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000513E9F5580
+[2015.06.15-07.29.26:525][995]LogEditorViewport: Clicking on Actor (LMB): AI_2d_character_C (AI_2d_character)
+[2015.06.15-07.29.26:633][995]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2015.06.15-07.29.27:699][ 13]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2015.06.15-07.29.27:783][ 13]LogEditorViewport: Clicking on Actor (double click): AI_2d_character_C (AI_2d_character)
+[2015.06.15-07.29.28:025][ 16]LogEditorViewport: Clicking on Actor (LMB): AI_2d_character_C (AI_2d_character)
+[2015.06.15-07.36.00:037][902]LogSavePackage: Save=4516.020020ms
+[2015.06.15-07.36.00:037][902]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMapC3FBE07B4687C88E8A162C9C6EF4F47C.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-07.36.02:105][935]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-07.36.02:106][935]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 11:36:02 PM)
+[2015.06.15-07.36.02:156][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048877s)
+[2015.06.15-07.36.02:163][935]LogPlayLevel: PIE: World Init took: (0.007539s)
+[2015.06.15-07.36.02:164][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.056992s)
+[2015.06.15-07.36.02:221][935]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-07.36.02:227][935]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-07.36.02:247][935]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.06.15-03.36.02
+[2015.06.15-07.36.02:252][935]LogWorld: Bringing up level for play took: 0.024237
+[2015.06.15-07.36.02:260][935]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.08
+[2015.06.15-07.36.25:879][122]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000513B918900
+[2015.06.15-07.38.28:143][914]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.15-07.41.37:639][761]BlueprintLog: New page: Compile AgroCheck
+[2015.06.15-07.41.37:922][761]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000513B4CCF40
+[2015.06.15-07.41.37:922][761]BlueprintEditorCompileResults: Info [7323.80] Compile of AgroCheck successful! [in 281 ms]
+[2015.06.15-07.43.20:003][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AgroCheck" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset" SILENT=true
+[2015.06.15-07.43.20:325][772]LogSavePackage: Save=270.593506ms
+[2015.06.15-07.43.20:325][772]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck5B3448CB43EE8AFCE8BB91AF8C1CA93D.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset'
+[2015.06.15-07.46.18:505][876]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.15-07.46.26:022][181]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.15-07.46.26:309][181]BlueprintEditorCompileResults: Info [7612.18] Compile of TopDownCharacter successful! [in 287 ms]
+[2015.06.15-07.46.27:252][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/TopDownCharacter" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset" SILENT=true
+[2015.06.15-07.46.27:423][213]LogSavePackage: Save=146.822021ms
+[2015.06.15-07.46.27:423][213]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacter05CAF9B342621EC2521A3591D2EB065C.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset'
+[2015.06.15-07.46.31:675][342]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-07.46.31:675][342]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 11:46:31 PM)
+[2015.06.15-07.46.31:726][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050510s)
+[2015.06.15-07.46.31:729][342]LogPlayLevel: PIE: World Init took: (0.002588s)
+[2015.06.15-07.46.31:730][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.053683s)
+[2015.06.15-07.46.31:797][342]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-07.46.31:803][342]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-07.46.31:824][342]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.06.15-03.46.31
+[2015.06.15-07.46.31:828][342]LogWorld: Bringing up level for play took: 0.023896
+[2015.06.15-07.46.31:836][342]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.655
+[2015.06.15-07.47.10:693][202]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.15-07.47.17:829][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AI_2d_character" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AI_2d_character.uasset" SILENT=true
+[2015.06.15-07.47.17:910][561]LogSavePackage: Save=56.254448ms
+[2015.06.15-07.47.17:910][561]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AI_2d_character7FAD02314B10472094B96695CF7A98D7.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AI_2d_character.uasset'
+[2015.06.15-07.47.39:558][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AI_2d_character" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AI_2d_character.uasset" SILENT=true
+[2015.06.15-07.47.39:636][639]LogSavePackage: Save=55.754593ms
+[2015.06.15-07.47.39:636][639]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AI_2d_character3DC594EA460BEE9300F250838C634BC2.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AI_2d_character.uasset'
+[2015.06.15-07.47.45:690][924]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000513B83D940
+[2015.06.15-07.47.48:049][  5]BlueprintLog: New page: Compile AI_2d_character
+[2015.06.15-07.47.48:568][  5]BlueprintEditorCompileResults: Info [7694.44] Compile of AI_2d_character successful! [in 519 ms]
+[2015.06.15-07.47.51:371][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AI_2d_character" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AI_2d_character.uasset" SILENT=true
+[2015.06.15-07.47.51:450][160]LogSavePackage: Save=56.351379ms
+[2015.06.15-07.47.51:450][160]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AI_2d_characterAA72D8194C7EC7AC36606EA13E51AB1C.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AI_2d_character.uasset'
+[2015.06.15-07.48.00:536][278]LogSavePackage: Save=4472.748047ms
+[2015.06.15-07.48.00:536][278]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap2A00C6684E5398D4D6B1E686B72AB0E1.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-07.48.02:287][308]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-07.48.02:287][308]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 11:48:02 PM)
+[2015.06.15-07.48.02:339][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050442s)
+[2015.06.15-07.48.02:343][308]LogPlayLevel: PIE: World Init took: (0.004721s)
+[2015.06.15-07.48.02:344][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.055693s)
+[2015.06.15-07.48.02:399][308]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-07.48.02:405][308]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-07.48.02:426][308]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.06.15-03.48.02
+[2015.06.15-07.48.02:431][308]LogWorld: Bringing up level for play took: 0.024604
+[2015.06.15-07.48.02:506][308]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.674
+[201
