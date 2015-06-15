@@ -1,0 +1,787 @@
+﻿Log file open, 06/14/15 22:52:57
+LogInit:Display: Running engine for game: ThirdPersonToTopDown
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.15-02.52.57:397][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.06.15-02.52.57:475][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.15-02.52.57:511][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.15-02.52.57:538][  0]LogInit: Object subsystem initialized
+[2015.06.15-02.52.57:543][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.15-02.52.57:543][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.15-02.52.57:543][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.15-02.52.57:543][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.15-02.52.57:543][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.15-02.52.57:543][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.15-02.52.57:544][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.15-02.52.57:544][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.15-02.52.57:567][  0]LogInit: Computer: WITPK17B0D
+[2015.06.15-02.52.57:567][  0]LogInit: User: quinlanb
+[2015.06.15-02.52.57:567][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.15-02.52.57:567][  0]LogInit: High frequency timer resolution =2.630743 MHz
+[2015.06.15-02.52.57:567][  0]LogMemory: Memory total: Physical=7.6GB (8GB approx) Virtual=8192.0GB
+[2015.06.15-02.52.57:568][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.15-02.52.57:568][  0]LogMemory: Process Physical Memory: 48.53 MB used, 48.53 MB peak
+[2015.06.15-02.52.57:568][  0]LogMemory: Process Virtual Memory: 23.89 MB used, 23.90 MB peak
+[2015.06.15-02.52.57:568][  0]LogMemory: Physical Memory: 2975.30 MB used, 7758.79 MB total
+[2015.06.15-02.52.57:568][  0]LogMemory: Virtual Memory: 337.81 MB used, 8388608.00 MB total
+[2015.06.15-02.52.57:604][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.06.15-02.52.57:604][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory, 1 output[s]
+[2015.06.15-02.52.57:626][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.15-02.52.57:626][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory, 0 output[s]
+[2015.06.15-02.52.57:626][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.15-02.52.57:640][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.06.15-02.52.57:647][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.15-02.52.57:755][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.15-02.52.57:911][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.15-02.52.57:912][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.15-02.52.58:114][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.15-02.53.03:933][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.15-02.53.05:316][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.15-02.53.05:485][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.15-02.53.05:569][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/quinlanb/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.15-02.53.05:569][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/quinlanb/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.15-02.53.05:570][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.15-02.53.05:570][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.15-02.53.05:896][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.15-02.53.05:910][  0]LogDerivedDataCache: Using Local data cache path C:/Users/quinlanb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.15-02.53.06:684][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.15-02.53.06:684][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.15-02.53.07:685][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.15-02.53.07:899][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.15-02.53.10:056][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.15-02.53.10:524][  0]SourceControl: Info Source control is disabled
+[2015.06.15-02.53.10:525][  0]SourceControl: Info Source control is disabled
+[2015.06.15-02.53.10:525][  0]SourceControl: Info Source control is disabled
+[2015.06.15-02.53.10:525][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.15-02.53.10:525][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.15-02.53.10:550][  0]SourceControl: Info Source control is disabled
+[2015.06.15-02.53.11:069][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.15-02.53.11:069][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.15-02.53.11:276][  0]LogEngine: Initializing Engine...
+[2015.06.15-02.53.13:677][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.15-02.53.13:727][  0]LogInit: FAudioDevice initialized.
+[2015.06.15-02.53.13:829][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.15-02.53.13:873][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/quinlanb/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.15-02.53.13:880][  0]LogInit: Texture streaming: Enabled
+[2015.06.15-02.53.14:133][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.15-02.53.14:133][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.15-02.53.14:133][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.15-02.53.14:134][  0]LogAnalytics: SetUserId 4375bc6e4b71b86481da4b9a9d418a06|2c72959241184ef3a5aec64c68306f0e|4f01094e-9fb0-4aac-9eaa-adf54f142693
+[2015.06.15-02.53.14:134][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.15-02.53.14:221][  0]LogInit: Transaction tracking system initialized
+[2015.06.15-02.53.14:678][  0]BlueprintLog: New page: Editor Load
+[2015.06.15-02.53.14:756][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.06.15-02.53.14:757][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.15-02.53.16:211][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.15-02.53.17:197][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.15-02.53.17:917][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.15-02.53.17:919][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.15-02.53.18:037][  0]LogConsoleResponse:Display: 
+[2015.06.15-02.53.18:388][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.15-02.53.18:773][  0]SourceControl: Info Source control is disabled
+[2015.06.15-02.53.26:740][  0]Cmd: MAP LOAD FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.15-02.53.26:742][  0]LightingResults: New page: Lighting Build
+[2015.06.15-02.53.26:778][  0]MapCheck: New page: Map Check
+[2015.06.15-02.53.26:778][  0]LightingResults: New page: Lighting Build
+[2015.06.15-02.53.26:797][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005081DB3B00
+[2015.06.15-02.53.29:014][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.15-02.53.31:699][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-02.53.31:701][  0]Cmd: MAP CHECKDEP
+[2015.06.15-02.53.31:701][  0]MapCheck: New page: ThirdPersonExampleMap - Jun 14, 2015, 6:53:31 PM
+[2015.06.15-02.53.31:934][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 232.806ms to complete.
+[2015.06.15-02.53.31:934][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.195
+[2015.06.15-02.53.32:132][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_18fc_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_23a4_0///////STATCAT_Advanced////
+[2015.06.15-02.53.32:132][  0]LogCollectionManager: Loaded 0 collections in 0.004567 seconds
+[2015.06.15-02.53.32:158][  0]LogContentBrowser: Native class hierarchy populated in 0.0259 seconds. Added 1696 classes and 261 folders.
+[2015.06.15-02.53.32:242][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0059 seconds. Added 1 classes and 2 folders.
+[2015.06.15-02.53.32:377][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.15-02.53.32:380][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.15-02.53.32:388][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.15-02.53.32:429][  0]LogLoad: Full Startup: 38.30 seconds (BP compile: 0.38 seconds)
+[2015.06.15-02.53.32:489][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.06.15-02.53.32:789][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.06.15-02.53.34:224][  0]LogRenderer:Warning: Reallocating scene render targets to support 1008x456 (Frame:4).
+[2015.06.15-02.53.36:178][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-02.53.38:447][ 13]LogAssetRegistry: Asset discovery search completed in 23.7023 seconds
+[2015.06.15-02.54.12:915][766]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-02.54.38:693][874]LogRenderer:Warning: Reallocating scene render targets to support 1080x720 (Frame:830).
+[2015.06.15-02.55.00:805][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2015.06.15-02.55.34:251][ 17]Cmd: TRANSACTION UNDO
+[2015.06.15-02.55.34:251][ 17]LogEditorTransaction: Undo Move Actors
+[2015.06.15-02.55.34:491][ 19]Cmd: TRANSACTION UNDO
+[2015.06.15-02.55.34:491][ 19]LogEditorTransaction: Undo Move Actors
+[2015.06.15-02.55.34:709][ 21]Cmd: TRANSACTION UNDO
+[2015.06.15-02.55.34:709][ 21]LogEditorTransaction: Undo Move Actors
+[2015.06.15-02.55.35:254][ 45]Cmd: TRANSACTION UNDO
+[2015.06.15-02.55.35:255][ 45]LogEditorTransaction: Undo Move Actors
+[2015.06.15-02.55.36:023][ 59]Cmd: TRANSACTION UNDO
+[2015.06.15-02.55.36:023][ 59]LogEditorTransaction: Undo Move Actors
+[2015.06.15-02.55.36:782][ 72]Cmd: TRANSACTION UNDO
+[2015.06.15-02.55.36:782][ 72]LogEditorTransaction: Undo Move Actors
+[2015.06.15-02.55.37:400][ 84]Cmd: TRANSACTION UNDO
+[2015.06.15-02.55.37:400][ 84]LogEditorTransaction: Undo Move Actors
+[2015.06.15-02.55.38:836][113]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.06.15-02.55.40:077][154]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.06.15-02.55.49:812][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-02.55.50:546][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-02.55.55:059][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-02.55.55:484][443]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.06.15-02.56.04:128][619]Cmd: DELETE
+[2015.06.15-02.56.04:129][619]Cmd: ACTOR DELETE
+[2015.06.15-02.56.04:181][619]LogEditorActor: Deleted Actor: TextRenderActor
+[2015.06.15-02.56.04:231][619]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005097E2A700
+[2015.06.15-02.56.04:244][619]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2015.06.15-02.56.05:747][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-02.56.06:731][672]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2015.06.15-02.56.32:276][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2015.06.15-02.56.38:501][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2015.06.15-02.56.38:678][290]Cmd: DELETE
+[2015.06.15-02.56.38:678][290]Cmd: ACTOR DELETE
+[2015.06.15-02.56.38:680][290]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.15-02.56.38:743][290]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2015.06.15-02.56.39:280][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
+[2015.06.15-02.56.39:546][307]Cmd: DELETE
+[2015.06.15-02.56.39:546][307]Cmd: ACTOR DELETE
+[2015.06.15-02.56.39:549][307]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.15-02.56.39:599][307]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2015.06.15-02.56.40:071][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2015.06.15-02.56.40:559][326]Cmd: DELETE
+[2015.06.15-02.56.40:559][326]Cmd: ACTOR DELETE
+[2015.06.15-02.56.40:562][326]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.15-02.56.40:605][326]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2015.06.15-02.56.41:079][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2015.06.15-02.56.41:390][342]Cmd: DELETE
+[2015.06.15-02.56.41:390][342]Cmd: ACTOR DELETE
+[2015.06.15-02.56.41:392][342]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.15-02.56.41:436][342]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2015.06.15-02.56.41:806][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2015.06.15-02.56.42:272][357]Cmd: DELETE
+[2015.06.15-02.56.42:272][357]Cmd: ACTOR DELETE
+[2015.06.15-02.56.42:275][357]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.15-02.56.42:318][357]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2015.06.15-02.56.43:576][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2015.06.15-02.56.44:928][411]Cmd: DELETE
+[2015.06.15-02.56.44:929][411]Cmd: ACTOR DELETE
+[2015.06.15-02.56.44:931][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.15-02.56.44:974][411]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2015.06.15-02.56.45:740][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-02.58.48:599][140]MapCheck: New page: Map Check
+[2015.06.15-02.58.48:694][140]LightingResults: New page: Lighting Build - Jun 14, 2015, 6:58:48 PM
+[2015.06.15-02.59.03:839][140]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.06.15-02.59.03:839][140]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.06.15-02.59.03:839][140]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.06.15-02.59.03:839][140]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.06.15-02.59.03:839][140]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.06.15-02.59.04:561][140]LogEditorBuildUtils: Build time 0:00:15
+[2015.06.15-02.59.50:744][993]=== Lightmass crashed: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.cpp] [Line: 1324] 
+Static lighting thread exception:
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMemory.cpp] [Line: 54] 
+Ran out of memory allocating 16384 bytes with alignment 0
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fb124f7b8c) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadffc4544) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadfea27a4) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadfdb7867) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadfdb3ebd) + 0 bytes [UnknownFile:0]
+UnrealLightmass.exe!operator new<TChunkedArray<Lightmass::FTexelToCorners,16384>::FChunk,FDefaultAllocator>() (0x000007f6e961793a) + 0 bytes [UnknownFile:0]
+UnrealLightmass.exe!Lightmass::FTexelToCornersMap::FTexelToCornersMap() (0x000007f6e963085d) + 0 bytes [UnknownFile:0]
+UnrealLightmass.exe!Lightmass::FStaticLightingSystem::ProcessTextureMapping() (0x000007f6e96e69a5) + 0 bytes [UnknownFile:0]
+UnrealLightmass.exe!Lightmass::FStaticLightingSystem::ThreadLoop() (0x000007f6e969e9d7) + 0 bytes [UnknownFile:0]
+UnrealLightmass.exe!Lightmass::FMappingProcessingThreadRunnable::Run() (0x000007f6e9695639) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadffc3b66) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadffb805d) + 0 bytes [UnknownFile:0]
+KERNEL32.DLL!UnknownFunction (0x000007fb131d1842) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000007fb153c02a9) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000007fb153c02a9) + 0 bytes [UnknownFile:0]
+
+
+
+
+[2015.06.15-02.59.50:771][993]LightingResults:Error: Error <None> === Lightmass crashed: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.cpp] [Line: 1324] 
+Static lighting thread exception:
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMemory.cpp] [Line: 54] 
+Ran out of memory allocating 16384 bytes with alignment 0
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fb124f7b8c) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadffc4544) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadfea27a4) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadfdb7867) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadfdb3ebd) + 0 bytes [UnknownFile:0]
+UnrealLightmass.exe!operator new<TChunkedArray<Lightmass::FTexelToCorners,16384>::FChunk,FDefaultAllocator>() (0x000007f6e961793a) + 0 bytes [UnknownFile:0]
+UnrealLightmass.exe!Lightmass::FTexelToCornersMap::FTexelToCornersMap() (0x000007f6e963085d) + 0 bytes [UnknownFile:0]
+UnrealLightmass.exe!Lightmass::FStaticLightingSystem::ProcessTextureMapping() (0x000007f6e96e69a5) + 0 bytes [UnknownFile:0]
+UnrealLightmass.exe!Lightmass::FStaticLightingSystem::ThreadLoop() (0x000007f6e969e9d7) + 0 bytes [UnknownFile:0]
+UnrealLightmass.exe!Lightmass::FMappingProcessingThreadRunnable::Run() (0x000007f6e9695639) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadffc3b66) + 0 bytes [UnknownFile:0]
+UnrealLightmass-Core.dll!UnknownFunction (0x000007fadffb805d) + 0 bytes [UnknownFile:0]
+KERNEL32.DLL!UnknownFunction (0x000007fb131d1842) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000007fb153c02a9) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000007fb153c02a9) + 0 bytes [UnknownFile:0]
+
+
+
+
+[2015.06.15-02.59.50:788][994]*** CRITICAL ERROR! Machine: WITPK17B0D
+[2015.06.15-02.59.50:788][994]*** CRITICAL ERROR! Logfile: UnrealLight_WITPK17B0D_E7E4CA8244989B018E0C09B37C9C90D6.log
+[2015.06.15-02.59.50:788][994]*** CRITICAL ERROR! Crash report: 
+[2015.06.15-02.59.50:837][995]Job has failed! The task failure count is non-zero
+[2015.06.15-03.00.35:677][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.01.06:134][816]MapCheck: New page: Map Check
+[2015.06.15-03.01.06:160][816]LightingResults: New page: Lighting Build - Jun 14, 2015, 7:01:06 PM
+[2015.06.15-03.01.10:753][816]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.06.15-03.01.10:753][816]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.06.15-03.01.10:753][816]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.06.15-03.01.10:753][816]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.06.15-03.01.10:753][816]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.06.15-03.01.11:523][816]LogEditorBuildUtils: Build time 0:00:05
+[2015.06.15-03.02.57:323][212]Job is a success!
+[2015.06.15-03.03.06:496][214]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.06.15-03.03.12:675][214]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.06.15-03.03.12:682][214]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.06.15-03.03.12:711][214]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.06.15-03.03.13:233][214]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.06.15-03.03.14:798][214]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.06.15-03.03.15:285][214]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.06.15-03.03.16:513][214]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.06.15-03.03.17:004][214]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.06.15-03.03.18:370][214]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.06.15-03.03.18:860][214]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.06.15-03.03.20:632][214]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.06.15-03.03.27:760][214]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.06.15-03.03.30:165][214]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.06.15-03.03.31:664][214]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.06.15-03.03.33:152][214]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.06.15-03.03.34:773][214]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.06.15-03.03.35:102][214]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2015.06.15-03.03.35:215][214]Lightmass on WITPK17B0D: 2:22 min total, 341 ms importing, 1 ms setup, 2.94 sec photons, 2:18 min processing, 0 ms extra exporting [6/6 mappings]. Threads: 16:09 min total, 3:25 min processing.
+[2015.06.15-03.03.35:383][214]LogStaticLightingSystem: Illumination: 2:29 min (34.8 sec encoding lightmaps)
+[2015.06.15-03.03.35:384][214]LogStaticLightingSystem: Lightmap texture memory:  42.7 MB (42.7 MB streaming, 0.0 MB non-streaming), 12 textures
+[2015.06.15-03.03.35:384][214]LogStaticLightingSystem: Shadowmap texture memory: 85.3 MB (85.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2015.06.15-03.03.35:868][215]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.06.15-03.03.35:868][215]MapCheck: New page: ThirdPersonExampleMap - Jun 14, 2015, 7:03:35 PM
+[2015.06.15-03.03.36:388][215]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 520.119ms to complete.
+[2015.06.15-03.03.46:005][435]LogEditorViewport: Clicking Background
+[2015.06.15-03.04.22:568][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.06.15-03.04.29:763][254]LogSavePackage: Save=4771.615723ms
+[2015.06.15-03.04.29:763][254]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap_Auto160AA45E9479F2ADA4130DDB4455F1AAC.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2015.06.15-03.04.29:839][254]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 6.637
+[2015.06.15-03.04.29:839][254]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.637
+[2015.06.15-03.05.07:523][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2015.06.15-03.05.12:664][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.06.15-03.05.27:815][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2015.06.15-03.05.34:123][911]LogTexture:Display: Building textures: T_Brick_Clay_New_D (AutoDXT)
+[2015.06.15-03.05.45:466][911]LogTexture:Display: Building textures: T_Brick_Clay_New_M (AutoDXT)
+[2015.06.15-03.05.57:261][911]LogTexture:Display: Building textures: T_Brick_Clay_New_N (BC5)
+[2015.06.15-03.05.58:686][911]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2015.06.15-03.06.11:583][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2015.06.15-03.06.17:673][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2015.06.15-03.06.23:663][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2015.06.15-03.06.31:969][653]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.06.15-03.06.33:421][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.06.34:095][716]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.06.15-03.06.35:147][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.06.35:743][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.06.40:491][889]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_N (BC5)
+[2015.06.15-03.06.42:295][889]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_M (AutoDXT)
+[2015.06.15-03.06.54:012][889]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_D (AutoDXT)
+[2015.06.15-03.07.04:887][889]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2015.06.15-03.07.14:326][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2015.06.15-03.07.18:402][178]LogTexture:Display: Building textures: T_Ceramic_Tile_M (DXT1)
+[2015.06.15-03.07.20:416][178]LogTexture:Display: Building textures: T_Ceramic_Tile_N (BC5)
+[2015.06.15-03.07.21:905][178]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
+[2015.06.15-03.07.32:756][178]LogTexture:Display: Building textures: T_Rock_Marble_Polished_D (AutoDXT)
+[2015.06.15-03.07.38:325][178]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2015.06.15-03.07.45:509][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2015.06.15-03.07.46:752][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2015.06.15-03.07.47:394][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2015.06.15-03.07.49:415][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2015.06.15-03.07.56:168][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2015.06.15-03.08.02:227][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2015.06.15-03.08.08:492][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2015.06.15-03.08.12:246][909]LogTexture:Display: Building textures: T_Bush_N (BC5)
+[2015.06.15-03.08.12:345][909]LogTexture:Display: Building textures: T_Bush_D (AutoDXT)
+[2015.06.15-03.08.13:050][909]LogMaterial: Missing cached shader map for material M_Bush, compiling. 
+[2015.06.15-03.08.22:231][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.08.23:549][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.08.24:390][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.08.24:864][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.08.25:270][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.08.25:646][124]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.15-03.08.32:873][358]LogTexture:Display: Building textures: T_Concrete_Grime_D (AutoDXT)
+[2015.06.15-03.08.41:058][358]LogTexture:Display: Building textures: T_Metal_Rust_N (BC5)
+[2015.06.15-03.08.42:394][358]LogMaterial: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2015.06.15-03.09.01:847][767]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.15-03.09.07:600][928]LogTexture:Display: Building textures: T_Explosion_SubUV (AutoDXT)
+[2015.06.15-03.09.11:568][928]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2015.06.15-03.09.11:641][928]LogMaterial:Warning: Material /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV needed to have new flag set bUsedWithStaticLighting !
+[2015.06.15-03.09.11:646][928]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2015.06.15-03.09.11:667][928]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.15-03.09.19:639][ 72]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.15-03.09.39:296][551]LogTexture:Display: Building textures: T_Ground_Grass_D (AutoDXT)
+[2015.06.15-03.09.51:732][551]LogTexture:Display: Building textures: T_Ground_Grass_N (BC5)
+[2015.06.15-03.09.53:166][551]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2015.06.15-03.11.25:041][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.06.15-03.11.26:248][638]Cmd: DELETE
+[2015.06.15-03.11.26:248][638]Cmd: ACTOR DELETE
+[2015.06.15-03.11.26:251][638]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.15-03.11.26:303][638]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2015.06.15-03.11.58:960][614]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.15-03.12.01:631][681]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.06.15-03.12.07:782][797]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.06.15-03.12.16:392][982]LogTexture:Display: Building textures: T_Rock_Basalt_D (AutoDXT)
+[2015.06.15-03.12.27:485][982]LogTexture:Display: Building textures: T_RockMesh_M (DXT1)
+[2015.06.15-03.12.32:483][982]LogTexture:Display: Building textures: T_RockMesh_N (BC5)
+[2015.06.15-03.12.33:631][982]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2015.06.15-03.12.33:726][982]LogStaticMesh: Building static mesh SM_Rock...
+[2015.06.15-03.12.34:120][982]LogStaticMesh: Built static mesh [394.047607ms] /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2015.06.15-03.12.35:127][982]LogRenderer:Warning: Reallocating scene render targets to support 1192x744 (Frame:18536).
+[2015.06.15-03.12.54:667][ 54]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_M (AutoDXT)
+[2015.06.15-03.13.05:423][ 54]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_N (BC5)
+[2015.06.15-03.13.07:029][ 54]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_D (AutoDXT)
+[2015.06.15-03.13.17:452][ 54]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2015.06.15-03.13.35:840][ 84]LogTexture:Display: Building textures: T_Water_M (AutoDXT)
+[2015.06.15-03.13.38:675][ 84]LogTexture:Display: Building textures: T_Water_N (BC5)
+[2015.06.15-03.13.39:666][ 84]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling. 
+[2015.06.15-03.13.57:755][ 83]LogTexture:Display: Building textures: T_Rock_Basalt_N (BC5)
+[2015.06.15-03.13.59:079][ 83]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2015.06.15-03.14.09:157][636]LogSavePackage: Save=369.551483ms
+[2015.06.15-03.14.09:157][636]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/SM_Rock483B07D64888678F8A26CEAC997CF9AA.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Rock.uasset'
+[2015.06.15-03.14.31:226][239]LogActorFactory: Actor Factory created SM_Rock
+[2015.06.15-03.14.32:845][273]LogActorFactory: Actor Factory created SM_Rock
+[2015.06.15-03.14.37:836][274]LogSavePackage: Save=4254.941895ms
+[2015.06.15-03.14.37:836][274]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap_Auto27786BAE3498DA00432680F898F293000.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2015.06.15-03.14.37:857][274]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 4.471
+[2015.06.15-03.14.37:857][274]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.471
+[2015.06.15-03.14.37:903][274]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/Materials/M_explosion_subUV] ([1] browsable assets)...
+[2015.06.15-03.14.37:958][274]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV]
+[2015.06.15-03.14.37:958][274]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/Materials/M_explosion_subUV]
+[2015.06.15-03.14.38:586][274]LogSavePackage: Save=607.950684ms
+[2015.06.15-03.14.38:624][274]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/M_explosion_subUV_Auto2EEC9D8924B1277898922C581663EA22D.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/StarterContent/Particles/Materials/M_explosion_subUV_Auto2.uasset'
+[2015.06.15-03.14.38:654][274]LogFileHelpers: Auto-saving content packages took 0.797
+[2015.06.15-03.14.45:805][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.06.15-03.14.52:393][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.06.15-03.15.17:080][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.06.15-03.15.20:019][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.06.15-03.15.21:027][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.06.15-03.15.25:527][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.15.27:054][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.06.15-03.15.59:326][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock2)
+[2015.06.15-03.18.10:043][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.19.02:721][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.06.15-03.19.10:062][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.19.17:944][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock2)
+[2015.06.15-03.19.25:510][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock2)
+[2015.06.15-03.19.44:601][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.19.49:114][505]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.19.49:128][505]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:19:49 PM)
+[2015.06.15-03.19.49:236][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106776s)
+[2015.06.15-03.19.49:238][505]LogPlayLevel: PIE: World Init took: (0.001714s)
+[2015.06.15-03.19.49:238][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.108925s)
+[2015.06.15-03.19.49:450][505]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.19.49:726][505]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.19.49:740][505]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.19.49
+[2015.06.15-03.19.49:779][505]LogWorld: Bringing up level for play took: 0.050994
+[2015.06.15-03.19.50:081][505]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.901
+[2015.06.15-03.20.06:210][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050B38ABA60
+[2015.06.15-03.20.17:026][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.06.15-03.20.44:203][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.06.15-03.20.44:376][981]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.15-03.21.15:046][575]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.21.15:046][575]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:21:15 PM)
+[2015.06.15-03.21.15:086][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028880s)
+[2015.06.15-03.21.15:098][575]LogPlayLevel: PIE: World Init took: (0.011254s)
+[2015.06.15-03.21.15:098][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040630s)
+[2015.06.15-03.21.15:193][575]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.21.15:198][575]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.21.15:211][575]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.21.15
+[2015.06.15-03.21.15:213][575]LogWorld: Bringing up level for play took: 0.013556
+[2015.06.15-03.21.15:220][575]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.041
+[2015.06.15-03.21.22:041][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000508BE323E0
+[2015.06.15-03.22.33:461][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock2)
+[2015.06.15-03.23.14:571][283]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.23.14:572][283]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:23:14 PM)
+[2015.06.15-03.23.14:602][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029357s)
+[2015.06.15-03.23.14:613][283]LogPlayLevel: PIE: World Init took: (0.010213s)
+[2015.06.15-03.23.14:613][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040126s)
+[2015.06.15-03.23.14:681][283]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.23.14:687][283]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.23.14:701][283]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.23.14
+[2015.06.15-03.23.14:702][283]LogWorld: Bringing up level for play took: 0.014048
+[2015.06.15-03.23.14:710][283]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.469
+[2015.06.15-03.23.22:324][644]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050B3A64C20
+[2015.06.15-03.23.23:331][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.06.15-03.23.24:493][679]Cmd: DELETE
+[2015.06.15-03.23.24:493][679]Cmd: ACTOR DELETE
+[2015.06.15-03.23.24:496][679]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.15-03.23.24:565][679]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2015.06.15-03.23.25:149][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock2)
+[2015.06.15-03.23.25:467][696]Cmd: DELETE
+[2015.06.15-03.23.25:467][696]Cmd: ACTOR DELETE
+[2015.06.15-03.23.25:470][696]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.15-03.23.25:516][696]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2015.06.15-03.23.55:381][351]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.06.15-03.23.56:562][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.06.15-03.24.15:471][ 65]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2015.06.15-03.24.28:688][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.24.32:776][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.06.15-03.24.39:522][602]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.24.39:522][602]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:24:39 PM)
+[2015.06.15-03.24.39:548][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024433s)
+[2015.06.15-03.24.39:560][602]LogPlayLevel: PIE: World Init took: (0.012252s)
+[2015.06.15-03.24.39:560][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.037215s)
+[2015.06.15-03.24.39:630][602]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.24.39:636][602]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.24.39:649][602]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.24.39
+[2015.06.15-03.24.39:650][602]LogWorld: Bringing up level for play took: 0.013277
+[2015.06.15-03.24.39:658][602]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.478
+[2015.06.15-03.24.50:647][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050C9B8A520
+[2015.06.15-03.24.56:504][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.06.15-03.25.45:265][ 81]LogSavePackage: Save=4246.452637ms
+[2015.06.15-03.25.45:265][ 81]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap_Auto3BBE2D6864A3166EA66EE19B0E3DD7C65.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2015.06.15-03.25.45:284][ 81]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 4.491
+[2015.06.15-03.25.45:284][ 81]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.491
+[2015.06.15-03.25.52:735][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.06.15-03.25.56:990][282]Cmd: TRANSACTION UNDO
+[2015.06.15-03.25.56:990][282]LogEditorTransaction: Undo Move Actors
+[2015.06.15-03.26.53:496][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.06.15-03.26.54:222][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.06.15-03.27.04:383][532]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2015.06.15-03.27.06:971][574]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2015.06.15-03.27.09:033][609]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.06.15-03.27.16:470][735]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.06.15-03.27.24:756][888]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.06.15-03.27.35:985][ 94]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.27.35:986][ 94]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:27:35 PM)
+[2015.06.15-03.27.36:028][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030039s)
+[2015.06.15-03.27.36:040][ 94]LogPlayLevel: PIE: World Init took: (0.012209s)
+[2015.06.15-03.27.36:040][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.042801s)
+[2015.06.15-03.27.36:105][ 94]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.27.36:111][ 94]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.27.36:124][ 94]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.27.36
+[2015.06.15-03.27.36:127][ 94]LogWorld: Bringing up level for play took: 0.014200
+[2015.06.15-03.27.36:137][ 94]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.957
+[2015.06.15-03.27.38:758][206]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050C9B8B2E0
+[2015.06.15-03.27.44:465][310]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.06.15-03.27.46:768][351]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.27.46:768][351]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:27:46 PM)
+[2015.06.15-03.27.46:794][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024801s)
+[2015.06.15-03.27.46:802][351]LogPlayLevel: PIE: World Init took: (0.006437s)
+[2015.06.15-03.27.46:802][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033204s)
+[2015.06.15-03.27.46:874][351]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.27.46:879][351]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.27.46:892][351]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.27.46
+[2015.06.15-03.27.46:894][351]LogWorld: Bringing up level for play took: 0.013586
+[2015.06.15-03.27.46:901][351]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.279
+[2015.06.15-03.28.03:652][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050CA582F20
+[2015.06.15-03.28.06:405][219]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.06.15-03.28.07:902][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.28.08:505][282]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2015.06.15-03.28.18:235][470]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.06.15-03.28.20:077][502]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.28.20:077][502]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:28:20 PM)
+[2015.06.15-03.28.20:103][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025413s)
+[2015.06.15-03.28.20:105][502]LogPlayLevel: PIE: World Init took: (0.001396s)
+[2015.06.15-03.28.20:105][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027289s)
+[2015.06.15-03.28.20:182][502]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.28.20:188][502]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.28.20:201][502]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.28.20
+[2015.06.15-03.28.20:203][502]LogWorld: Bringing up level for play took: 0.013646
+[2015.06.15-03.28.20:210][502]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.03
+[2015.06.15-03.28.30:360][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050B38AAB60
+[2015.06.15-03.28.33:539][ 47]Cmd: TRANSACTION UNDO
+[2015.06.15-03.28.33:539][ 47]LogEditorTransaction: Undo Rotate Actors
+[2015.06.15-03.28.33:976][ 51]Cmd: TRANSACTION UNDO
+[2015.06.15-03.28.33:976][ 51]LogEditorTransaction: Undo Clicking on Actors
+[2015.06.15-03.28.34:938][ 68]Cmd: TRANSACTION UNDO
+[2015.06.15-03.28.34:938][ 68]LogEditorTransaction: Undo Clicking on Actors
+[2015.06.15-03.28.35:541][ 78]Cmd: TRANSACTION UNDO
+[2015.06.15-03.28.35:541][ 78]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.06.15-03.28.36:554][ 95]Cmd: TRANSACTION UNDO
+[2015.06.15-03.28.36:554][ 95]LogEditorTransaction: Undo Rotate Actors
+[2015.06.15-03.28.39:459][151]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.28.39:459][151]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:28:39 PM)
+[2015.06.15-03.28.39:517][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030642s)
+[2015.06.15-03.28.39:527][151]LogPlayLevel: PIE: World Init took: (0.008331s)
+[2015.06.15-03.28.39:527][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040952s)
+[2015.06.15-03.28.39:597][151]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.28.39:603][151]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.28.39:616][151]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.28.39
+[2015.06.15-03.28.39:618][151]LogWorld: Bringing up level for play took: 0.013554
+[2015.06.15-03.28.39:625][151]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.445
+[2015.06.15-03.28.45:402][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005093527EC0
+[2015.06.15-03.29.05:492][808]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.06.15-03.29.38:816][421]LogEditorViewport: Clicking on Actor (LMB): Brush (Curved Stair Brush)
+[2015.06.15-03.30.13:556][ 86]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.06.15-03.30.14:511][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.30.34:864][475]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.30.34:864][475]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:30:34 PM)
+[2015.06.15-03.30.34:959][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093706s)
+[2015.06.15-03.30.34:960][475]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2015.06.15-03.30.34:961][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.095455s)
+[2015.06.15-03.30.35:007][475]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.30.35:013][475]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.30.35:027][475]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.30.35
+[2015.06.15-03.30.35:029][475]LogWorld: Bringing up level for play took: 0.014643
+[2015.06.15-03.30.35:036][475]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.143
+[2015.06.15-03.31.29:525][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005090657CE0
+[2015.06.15-03.31.43:079][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.06.15-03.32.12:214][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.06.15-03.32.18:055][ 21]Cmd: TRANSACTION UNDO
+[2015.06.15-03.32.18:055][ 21]LogEditorTransaction: Undo Move Actors
+[2015.06.15-03.32.23:361][131]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.06.15-03.32.24:284][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.32.57:001][739]LogTexture:Display: Building textures: T_Chair_N (BC5)
+[2015.06.15-03.32.58:311][739]LogTexture:Display: Building textures: T_Chair_M (AutoDXT)
+[2015.06.15-03.33.01:097][739]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2015.06.15-03.33.01:154][739]LogStaticMesh: Building static mesh SM_Couch...
+[2015.06.15-03.33.01:249][739]LogStaticMesh: Built static mesh [133.206482ms] /Game/StarterContent/Props/SM_Couch.SM_Couch
+[2015.06.15-03.33.11:832][451]LogActorFactory: Actor Factory created SM_Couch
+[2015.06.15-03.33.14:249][491]LogActorFactory: Actor Factory created SM_Couch
+[2015.06.15-03.33.30:254][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.33.58:768][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.06.15-03.34.14:474][646]Cmd: TRANSACTION UNDO
+[2015.06.15-03.34.14:474][646]LogEditorTransaction: Undo Move Actors
+[2015.06.15-03.34.30:853][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.06.15-03.34.42:239][157]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.06.15-03.34.43:274][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.34.44:104][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.06.15-03.34.44:568][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.06.15-03.35.08:046][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.06.15-03.35.25:990][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.06.15-03.36.10:263][735]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.06.15-03.36.43:424][359]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.06.15-03.37.19:036][ 22]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000508C76A8E0
+[2015.06.15-03.37.19:049][ 22]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050964AB9C0
+[2015.06.15-03.37.23:577][ 22]LogSavePackage: Save=4341.263184ms
+[2015.06.15-03.37.23:577][ 22]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap_Auto47147C51F41DBF544EA30D48374891BBC.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2015.06.15-03.37.23:597][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 4.620
+[2015.06.15-03.37.23:598][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.620
+[2015.06.15-03.37.54:993][618]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.06.15-03.38.22:617][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.38.39:507][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.39.13:226][227]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall1)
+[2015.06.15-03.39.25:918][459]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2015.06.15-03.39.26:286][464]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2015.06.15-03.39.32:976][606]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2015.06.15-03.39.34:421][629]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2015.06.15-03.39.35:488][647]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2015.06.15-03.39.49:237][917]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.06.15-03.40.11:651][327]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.40.11:651][327]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:40:11 PM)
+[2015.06.15-03.40.11:705][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053268s)
+[2015.06.15-03.40.11:708][327]LogPlayLevel: PIE: World Init took: (0.002690s)
+[2015.06.15-03.40.11:709][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.056608s)
+[2015.06.15-03.40.11:760][327]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.40.11:766][327]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.40.11:783][327]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.40.11
+[2015.06.15-03.40.11:787][327]LogWorld: Bringing up level for play took: 0.019135
+[2015.06.15-03.40.11:795][327]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.615
+[2015.06.15-03.40.43:773][876]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050C9E09440
+[2015.06.15-03.41.50:501][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2015.06.15-03.42.28:945][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.06.15-03.42.38:942][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.06.15-03.42.48:764][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.06.15-03.42.51:344][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.06.15-03.43.57:454][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.44.01:987][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2015.06.15-03.44.03:266][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2015.06.15-03.44.05:931][735]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2015.06.15-03.44.07:059][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2015.06.15-03.44.10:315][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2015.06.15-03.44.10:764][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.44.16:271][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.06.15-03.44.20:067][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2015.06.15-03.44.30:991][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.44.32:162][200]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-03.44.32:163][200]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 7:44:32 PM)
+[2015.06.15-03.44.32:235][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058236s)
+[2015.06.15-03.44.32:238][200]LogPlayLevel: PIE: World Init took: (0.003052s)
+[2015.06.15-03.44.32:239][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.062003s)
+[2015.06.15-03.44.32:294][200]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-03.44.32:300][200]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-03.44.32:319][200]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.06.14-23.44.32
+[2015.06.15-03.44.32:322][200]LogWorld: Bringing up level for play took: 0.020801
+[2015.06.15-03.44.32:330][200]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.15
+[2015.06.15-03.45.31:235][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050C9D6AC00
+[2015.06.15-03.45.37:979][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.06.15-03.46.28:231][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2015.06.15-03.46.31:627][211]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.06.15-03.46.32:219][219]Cmd: CAMERA SNAP
+[2015.06.15-03.46.32:220][219]Snapped camera to the first selected object.
+[2015.06.15-03.47.41:697][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.48.04:108][748]LogSavePackage: Save=4384.662598ms
+[2015.06.15-03.48.04:109][748]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap9FE10EC34471AAD433F1DC81834C1480.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-03.50.41:757][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2015.06.15-03.50.44:997][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.50.55:933][460]LogSavePackage: Save=4350.558594ms
+[2015.06.15-03.50.55:933][460]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap5DF453F8442FEE011C965A87DCF814D5.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-03.52.02:566][888]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush2)
+[2015.06.15-03.53.08:468][611]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2015.06.15-03.53.17:090][766]Cmd: DELETE
+[2015.06.15-03.53.17:090][766]Cmd: ACTOR DELETE
+[2015.06.15-03.53.17:095][766]LogEditorActor: Deleted Actor: Brush
+[2015.06.15-03.53.17:273][766]LogEditorActor: Deleted 1 Actors (0.183 secs)
+[2015.06.15-03.53.18:876][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2015.06.15-03.56.32:172][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-03.56.41:779][673]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-03.58.55:034][712]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050B44009A0
+[2015.06.15-03.58.59:775][821]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.06.15-03.59.04:061][920]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.06.15-03.59.06:050][960]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.15-03.59.35:785][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.15-03.59.57:117][341]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.06.15-03.59.57:118][341]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.06.15-03.59.59:354][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050B70E0900
+[2015.06.15-04.00.55:835][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.15-04.01.00:717][527]LogSavePackage: Save=4715.075195ms
+[2015.06.15-04.01.00:717][527]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap_Auto573B7CDF342DCDC85D10DD186E3D35743.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2015.06.15-04.01.00:733][527]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 4.898
+[2015.06.15-04.01.00:733][527]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.898
+[2015.06.15-04.01.07:950][636]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints/Assets'
+[2015.06.15-04.01.08:958][657]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.06.15-04.01.16:319][823]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.06.15-04.01.49:282][ 24]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.06.15-04.07.26:823][334]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.06.15-04.07.31:119][426]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.15-04.08.18:698][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.15-04.08.18:749][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050B38A93A0
+[2015.06.15-04.08.30:982][858]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-04.08.57:224][958]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-04.09.16:365][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.15-04.09.16:420][348]LogMetaData: Removing '/Game/TopDown2D/Follower_AI_CON.Follower_AI_CON:UserConstructionScript.K2Node_FunctionEntry_119' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-04.09.16:420][348]LogMetaData: Removing '/Game/TopDown2D/Follower_AI_CON.Follower_AI_CON:EventGraph.K2Node_Event_138' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-04.09.16:420][348]LogMetaData: Removing '/Game/TopDown2D/Follower_AI_CON.SKEL_Follower_AI_CON_C' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-04.09.16:420][348]LogMetaData: Removing '/Game/TopDown2D/Follower_AI_CON.Follower_AI_CON_C' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-04.09.16:420][348]LogMetaData: Removing '/Game/TopDown2D/Follower_AI_CON.Follower_AI_CON:EventGraph.K2Node_Event_137' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-04.09.16:542][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Follower_AI_CON" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_AI_CON.uasset" SILENT=true
+[2015.06.15-04.09.16:578][348]LogSavePackage: Save=31.340956ms
+[2015.06.15-04.09.16:578][348]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_AI_COND91BBBAD48DC99C43235F4BF6A8733C0.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_AI_CON.uasset'
+[2015.06.15-04.10.13:851][412]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-04.11.02:430][904]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.049
+[2015.06.15-04.11.02:484][904]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/AI_Character] ([1] browsable assets)...
+[2015.06.15-04.11.02:505][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/AI_Character]
+[2015.06.15-04.11.02:705][904]LogSavePackage: Save=192.084137ms
+[2015.06.15-04.11.02:708][904]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AI_Character_Auto66AE30D5A437DB7789F9F318CF40D28F5.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/AI_Character_Auto6.uasset'
+[2015.06.15-04.11.02:747][904]LogFileHelpers: Auto-saving content packages took 0.316
+[2015.06.15-04.11.14:947][ 39]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-04.11.42:265][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Follower_BT" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_BT.uasset" SILENT=true
+[2015.06.15-04.11.42:274][562]LogSavePackage: Save=4.840838ms
+[2015.06.15-04.11.42:274][562]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_BT2D9370C4413A8D7F4A17009072FEED72.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_BT.uasset'
+[2015.06.15-04.11.54:500][722]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-04.12.12:435][ 87]LogSavePackage: Save=4.831335ms
+[2015.06.15-04.12.12:435][ 87]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_Blackboard8FEDCA34423BAF0AC319F085351EEBBF.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_Blackboard.uasset'
+[2015.06.15-04.14.47:842][670]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-04.18.06:528][ 83]BlueprintLog: New page: Compile AI_2d_character
+[2015.06.15-04.18.06:852][ 83]BlueprintEditorCompileResults: Info [5112.71] Compile of AI_2d_character successful! [in 305 ms]
+[2015.06.15-04.21.03:365][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050ECE674C0
+[2015.06.15-04.21.03:371][820]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.053
+[2015.06.15-04.21.03:423][820]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/AI_2d_character] ([1] browsable assets)...
+[2015.06.15-04.21.03:432][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/AI_2d_character]
+[2015.06.15-04.21.03:610][820]LogSavePackage: Save=170.664719ms
+[2015.06.15-04.21.03:612][820]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AI_2d_character_Auto72E0065384AAACC0824B5849B0D536236.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/AI_2d_character_Auto7.uasset'
+[2015.06.15-04.21.03:779][820]LogSavePackage: Save=141.019852ms
+[2015.06.15-04.21.03:781][820]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/NewBehaviorTree_Auto7D0E52B144136FB7B0000CCA40C7AB957.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/NewBehaviorTree_Auto7.uasset'
+[2015.06.15-04.21.03:940][820]LogSavePackage: Save=133.864456ms
+[2015.06.15-04.21.03:942][820]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/NewBlackboardData_Auto7008FD46E4EDF8E0D34465892314B7A2C.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/NewBlackboardData_Auto7.uasset'
+[2015.06.15-04.21.03:959][820]LogFileHelpers: Auto-saving content packages took 0.587
+[2015.06.15-04.21.46:074][979]BlueprintLog: New page: Compile AI_2d_character
+[2015.06.15-04.21.46:295][979]BlueprintEditorCompileResults: Info [5332.17] Compile of AI_2d_character successful! [in 220 ms]
+[2015.06.15-04.21.47:176][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AI_2d_character" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AI_2d_character.uasset" SILENT=true
+[2015.06.15-04.21.47:234][  9]LogSavePackage: Save=53.551792ms
+[2015.06.15-04.21.47:234][  9]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AI_2d_character0616AE6545C64AED5415AA91FCD9DC66.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AI_2d_character.uasset'
+[2015.06.15-04.23.32:968][695]BlueprintLog: New page: Compile Follower_AI_CON
+[2015.06.15-04.23.33:145][695]BlueprintEditorCompileResults: Info [5439.02] Compile of Follower_AI_CON successful! [in 176 ms]
+[2015.06.15-04.23.35:458][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Follower_AI_CON" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_AI_CON.uasset" SILENT=true
+[2015.06.15-04.23.35:511][773]LogSavePackage: Save=35.417751ms
+[2015.06.15-04.23.35:511][773]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_AI_CON7A45F91541EB1828470173AAAD779DBD.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_AI_CON.uasset'
+[2015.06.15-04.26.43:122][509]LogSavePackage: Save=7.104077ms
+[2015.06.15-04.26.43:122][509]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_Blackboard7307222A44E85458D51708B6A0DCF4AE.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_Blackboard.uasset'
+[2015.06.15-04.32.15:733][928]LogSavePackage: Save=4361.149902ms
+[2015.06.15-04.32.15:733][928]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap7F51BCCA472D8D97E84A07BA771E562B.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-04.42.56:136][526]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.055
+[2015.06.15-04.42.56:182][526]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/Follower_AI_CON] ([1] browsable assets)...
+[2015.06.15-04.42.56:200][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Follower_AI_CON]
+[2015.06.15-04.42.56:409][526]LogSavePackage: Save=186.150452ms
+[2015.06.15-04.42.56:411][526]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_AI_CON_Auto80E8F4F0640BE050F4A0FFF916BB5DD0C.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Follower_AI_CON_Auto8.uasset'
+[2015.06.15-04.42.56:428][526]LogFileHelpers: Auto-saving content packages took 0.291
+[2015.06.15-04.46.47:389][ 87]BlueprintLog: New page: Compile Follower_AI_CON
+[2015.06.15-04.46.47:569][ 87]BlueprintEditorCompileResults: Info [6833.44] Compile of Follower_AI_CON successful! [in 179 ms]
+[2015.06.15-04.53.00:830][356]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.051
+[2015.06.15-04.53.00:872][356]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/Follower_AI_CON] ([1] browsable assets)...
+[2015.06.15-04.53.00:887][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Follower_AI_CON]
+[2015.06.15-04.53.01:092][356]LogSavePackage: Save=181.578735ms
+[2015.06.15-04.53.01:093][356]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_AI_CON_Auto9A11C1DED4E3D92BB7F8371B083B0281D.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Follower_AI_CON_Auto9.uasset'
+[2015.06.15-04.53.01:107][356]LogFileHelpers: Auto-saving content packages took 0.278
+[2015.06.15-04.57.15:079][101]BlueprintLog: New page: Compile Follower_AI_CON
+[2015.06.15-04.57.15:277][101]BlueprintEditorCompileResults: Info [7461.15] Compile of Follower_AI_CON successful! [in 197 ms]
+[2015.06.15-04.57.16:835][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Follower_AI_CON" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_AI_CON.uasset" SILENT=true
+[2015.06.15-04.57.16:930][226]LogSavePackage: Save=78.699821ms
+[2015.06.15-04.57.16:930][226]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_AI_CON53542990440DC3E15EA0F5A43544C16E.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_AI_CON.uasset'
+[2015.06.15-05.03.07:085][303]LogSavePackage: Save=4478.181152ms
+[2015.06.15-05.03.07:085][303]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap_Auto0823A113C430D607C60EC44B8210B0EAC.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto0.umap'
+[2015.06.15-05.03.07:100][303]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 4.672
+[2015.06.15-05.03.07:100][303]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.672
+[2015.06.15-05.03.07:139][303]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/Follower_BT] ([1] browsable assets)...
+[2015.06.15-05.03.07:139][303]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Follower_BT]
+[2015.06.15-05.03.07:310][303]LogSavePackage: Save=114.856148ms
+[2015.06.15-05.03.07:312][303]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_BT_Auto0A14D6DBB4B1E8C7B8C0E9AB70BE5971E.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Follower_BT_Auto0.uasset'
+[2015.06.15-05.03.07:325][303]LogFileHelpers: Auto-saving content packages took 0.225
+[2015.06.15-05.07.01:852][  6]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDown2D/BTService_BlueprintBase_New
+[2015.06.15-05.07.34:018][138]LogMetaData: Removing '/Game/TopDown2D/AgroCheck.SKEL_AgroCheck_C' ref from Metadata '/Game/TopDown2D/BTService_BlueprintBase_New.PackageMetaData'
+[2015.06.15-05.07.34:018][138]LogMetaData: Removing '/Game/TopDown2D/AgroCheck.AgroCheck_C' ref from Metadata '/Game/TopDown2D/BTService_BlueprintBase_New.PackageMetaData'
+[2015.06.15-05.07.34:099][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AgroCheck" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset" SILENT=true
+[2015.06.15-05.07.34:111][138]LogSavePackage: Save=8.147888ms
+[2015.06.15-05.07.34:111][138]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheckA84B7A3546552E554C0D94927C585B45.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset'
+[2015.06.15-05.07.34:426][140]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/TopDown2D/AgroCheck
+[2015.06.15-05.12.21:842][531]BlueprintLog: New page: Compile AgroCheck
+[2015.06.15-05.12.22:001][531]BlueprintEditorCompileResults: Info [8367.88] Compile of AgroCheck successful! [in 158 ms]
+[2015.06.15-05.14.19:797][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.057
+[2015.06.15-05.14.19:917][997]LogSavePackage: Save=109.101494ms
+[2015.06.15-05.14.19:918][997]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/BTService_BlueprintBase_New_Auto198100EBD46252116DF789F80215BEF6D.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/BTService_BlueprintBase_New_Auto1.uasset'
+[2015.06.15-05.14.19:978][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/AgroCheck] ([1] browsable assets)...
+[2015.06.15-05.14.19:978][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/AgroCheck]
+[2015.06.15-05.14.20:143][997]LogSavePackage: Save=124.039864ms
+[2015.06.15-05.14.20:144][997]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck_Auto176AAC7C44E518ACC51016CB7EFD8B391.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/AgroCheck_Auto1.uasset'
+[2015.06.15-05.14.20:159][997]LogFileHelpers: Auto-saving content packages took 0.363
+[2015.06.15-05.16.09:398][533]LogClass:Warning: Type mismatch in NewVar_0 of SKEL_AgroCheck_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2015.06.15-05.17.56:980][182]LogBlueprint:Warning: [compiler] Warning Can't parse default value 'None' for  (none) . Property: TargetToFollow.
+[2015.06.15-05.17.56:980][182]LogBlueprint:Warning: [compiler] Warning [8702.85] Compile of AgroCheck successful, but with 1 Warning(s) [in 24 ms]
+[2015.06.15-05.17.56:980][182]LogBlueprint:Warning: [compiler] Warning [8702.86] Compile of AgroCheck successful, but with 2 Warning(s) [in 0 ms]
+[2015.06.15-05.17.57:063][182]LogBlueprint:Warning: [compiler] Warning [8702.94] Compile of AgroCheck successful, but with 3 Warning(s) [in 82 ms]
+[2015.06.15-05.17.57:077][182]LogBlueprint:Warning: [compiler] Warning [8702.95] Compile of AgroCheck successful, but with 4 Warning(s) [in 13 ms]
+[2015.06.15-05.17.57:078][182]LogBlueprint:Warning: [compiler] Warning [8702.95] Compile of AgroCheck successful, but with 5 Warning(s) [in 0 ms]
+[2015.06.15-05.17.57:078][182]LogBlueprint:Warning: [compiler] Warning [8702.95] Compile of AgroCheck successful, but with 6 Warning(s) [in 0 ms]
+[2015.06.15-05.20.41:112][172]BlueprintLog: New page: Compile AgroCheck
+[2015.06.15-05.20.41:275][172]BlueprintEditorCompileResults: Info [8867.15] Compile of AgroCheck successful! [in 162 ms]
+[2015.06.15-05.24.20:725][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.052
+[2015.06.15-05.24.20:771][565]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/AgroCheck] ([1] browsable assets)...
+[2015.06.15-05.24.20:786][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/AgroCheck]
+[2015.06.15-05.24.20:954][565]LogSavePackage: Save=141.164688ms
+[2015.06.15-05.24.20:957][565]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheck_Auto280927455443C21BCE359089963D86DF9.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/AgroCheck_Auto2.uasset'
+[2015.06.15-05.24.20:975][565]LogFileHelpers: Auto-saving content packages took 0.250
+[2015.06.15-05.24.29:393][283]BlueprintLog: New page: Compile AgroCheck
+[2015.06.15-05.24.29:548][283]BlueprintEditorCompileResults: Info [9095.42] Compile of AgroCheck successful! [in 154 ms]
+[2015.06.15-05.24.30:508][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/AgroCheck" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset" SILENT=true
+[2015.06.15-05.24.30:550][357]LogSavePackage: Save=24.564163ms
+[2015.06.15-05.24.30:550][357]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/AgroCheckB627CEE94A4FA3D242848182FE3FB6B9.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/AgroCheck.uasset'
+[2015.06.15-05.24.34:472][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Follower_BT" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_BT.uasset" SILENT=true
+[2015.06.15-05.24.34:507][719]LogSavePackage: Save=14.177744ms
+[2015.06.15-05.24.34:507][719]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Follower_BT0CFCE6E7455057D9567701B8078AE4CD.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Follower_BT.uasset'
+[2015.06.15-05.28.45:099][497]BlueprintLog: New page: Compile AgroCheck
+[2015.06.15-05.28.45:260][497]BlueprintEditorCompileResults: Info [9351.13] Compile of AgroCheck successful! [in 160 ms]
+[2015.06.15-05.35.39:830][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' 

@@ -1,0 +1,728 @@
+﻿Log file open, 06/14/15 19:39:19
+LogInit:Display: Running engine for game: ThirdPersonToTopDown
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.14-23.39.19:322][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.06.14-23.39.19:408][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.14-23.39.19:452][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.14-23.39.19:489][  0]LogInit: Object subsystem initialized
+[2015.06.14-23.39.19:501][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.14-23.39.19:501][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.14-23.39.19:537][  0]LogInit: Computer: WITPK17B0D
+[2015.06.14-23.39.19:537][  0]LogInit: User: quinlanb
+[2015.06.14-23.39.19:537][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.14-23.39.19:537][  0]LogInit: High frequency timer resolution =2.630752 MHz
+[2015.06.14-23.39.19:537][  0]LogMemory: Memory total: Physical=7.6GB (8GB approx) Virtual=8192.0GB
+[2015.06.14-23.39.19:538][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.14-23.39.19:538][  0]LogMemory: Process Physical Memory: 48.48 MB used, 48.48 MB peak
+[2015.06.14-23.39.19:538][  0]LogMemory: Process Virtual Memory: 26.02 MB used, 26.02 MB peak
+[2015.06.14-23.39.19:538][  0]LogMemory: Physical Memory: 4504.10 MB used, 7758.79 MB total
+[2015.06.14-23.39.19:538][  0]LogMemory: Virtual Memory: 341.98 MB used, 8388608.00 MB total
+[2015.06.14-23.39.19:640][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.06.14-23.39.19:640][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory, 1 output[s]
+[2015.06.14-23.39.19:680][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA Quadro K1000M  (Feature Level 11_0)
+[2015.06.14-23.39.19:680][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory, 0 output[s]
+[2015.06.14-23.39.19:684][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.14-23.39.19:684][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory, 0 output[s]
+[2015.06.14-23.39.19:684][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.14-23.39.19:716][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.14-23.39.19:740][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.14-23.39.20:030][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.14-23.39.20:207][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.14-23.39.20:208][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.14-23.39.20:432][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.14-23.39.30:312][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.14-23.39.32:499][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.14-23.39.32:704][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.14-23.39.33:498][  0]LogDerivedDataCache: Loaded boot cache 0.78s 39MB C:/Users/quinlanb/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.14-23.39.33:498][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/quinlanb/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.14-23.39.33:498][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.14-23.39.33:499][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.14-23.39.33:897][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.14-23.39.33:912][  0]LogDerivedDataCache: Using Local data cache path C:/Users/quinlanb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.14-23.39.46:505][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.14-23.39.46:505][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.14-23.39.47:602][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.14-23.39.48:032][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.14-23.40.19:014][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.14-23.40.19:947][  0]SourceControl: Info Source control is disabled
+[2015.06.14-23.40.19:947][  0]SourceControl: Info Source control is disabled
+[2015.06.14-23.40.19:947][  0]SourceControl: Info Source control is disabled
+[2015.06.14-23.40.19:947][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.14-23.40.19:947][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.14-23.40.19:973][  0]SourceControl: Info Source control is disabled
+[2015.06.14-23.40.21:192][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.14-23.40.21:192][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.06.14-23.40.21:472][  0]LogEngine: Initializing Engine...
+[2015.06.14-23.40.23:894][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.14-23.40.23:932][  0]LogInit: FAudioDevice initialized.
+[2015.06.14-23.40.24:080][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.14-23.40.24:119][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/quinlanb/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.14-23.40.24:126][  0]LogInit: Texture streaming: Enabled
+[2015.06.14-23.40.24:841][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.14-23.40.24:841][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.14-23.40.24:841][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.14-23.40.24:841][  0]LogAnalytics: SetUserId 4375bc6e4b71b86481da4b9a9d418a06|2c72959241184ef3a5aec64c68306f0e|4f01094e-9fb0-4aac-9eaa-adf54f142693
+[2015.06.14-23.40.24:842][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.14-23.40.24:994][  0]LogInit: Transaction tracking system initialized
+[2015.06.14-23.40.26:230][  0]BlueprintLog: New page: Editor Load
+[2015.06.14-23.40.26:331][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.06.14-23.40.26:332][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.14-23.40.28:478][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.14-23.40.29:513][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.14-23.40.42:342][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.14-23.40.42:344][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.14-23.40.42:675][  0]LogConsoleResponse:Display: 
+[2015.06.14-23.40.43:369][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.14-23.40.44:503][  0]SourceControl: Info Source control is disabled
+[2015.06.14-23.40.44:822][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.06.14-23.40.44:822][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.06.14-23.40.44:859][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.7/FeaturePacks/StarterContent.upack)
+[2015.06.14-23.40.54:596][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.06.14-23.40.54:609][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2015.06.14-23.40.54:612][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2015.06.14-23.40.54:638][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
+[2015.06.14-23.40.54:642][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
+[2015.06.14-23.40.54:645][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2015.06.14-23.40.54:648][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2015.06.14-23.40.54:650][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2015.06.14-23.40.54:653][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2015.06.14-23.40.54:656][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2015.06.14-23.40.54:659][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2015.06.14-23.40.54:662][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2015.06.14-23.40.54:665][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2015.06.14-23.40.54:668][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Collapse01.uasset
+[2015.06.14-23.40.54:671][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Collapse02.uasset
+[2015.06.14-23.40.54:675][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2015.06.14-23.40.54:678][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Explosion01.uasset
+[2015.06.14-23.40.54:681][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Explosion02.uasset
+[2015.06.14-23.40.54:684][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2015.06.14-23.40.54:687][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Fire01.uasset
+[2015.06.14-23.40.54:690][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2015.06.14-23.40.54:693][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2015.06.14-23.40.54:697][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2015.06.14-23.40.54:701][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Light01.uasset
+[2015.06.14-23.40.54:704][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Light01_Cue.uasset
+[2015.06.14-23.40.54:707][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Light02.uasset
+[2015.06.14-23.40.54:710][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Light02_Cue.uasset
+[2015.06.14-23.40.54:713][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Smoke01.uasset
+[2015.06.14-23.40.54:716][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2015.06.14-23.40.54:719][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2015.06.14-23.40.54:722][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2015.06.14-23.40.54:728][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Starter_Music01.uasset
+[2015.06.14-23.40.54:765][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2015.06.14-23.40.54:768][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2015.06.14-23.40.54:774][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2015.06.14-23.40.54:780][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Steam01.uasset
+[2015.06.14-23.40.54:784][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2015.06.14-23.40.54:786][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2015.06.14-23.40.54:790][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2015.06.14-23.40.54:793][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2015.06.14-23.40.54:838][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2015.06.14-23.40.54:841][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2015.06.14-23.40.54:844][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2015.06.14-23.40.54:880][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2015.06.14-23.40.54:884][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2015.06.14-23.40.54:887][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2015.06.14-23.40.54:890][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2015.06.14-23.40.54:893][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2015.06.14-23.40.54:896][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2015.06.14-23.40.54:899][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2015.06.14-23.40.54:902][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2015.06.14-23.40.54:905][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2015.06.14-23.40.54:908][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2015.06.14-23.40.54:911][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2015.06.14-23.40.54:999][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2015.06.14-23.40.55:002][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.06.14-23.40.55:008][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Maps/StarterMap.umap
+[2015.06.14-23.40.55:030][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2015.06.14-23.40.55:034][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2015.06.14-23.40.55:037][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.06.14-23.40.55:040][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2015.06.14-23.40.55:043][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2015.06.14-23.40.55:048][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2015.06.14-23.40.55:051][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2015.06.14-23.40.55:055][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2015.06.14-23.40.55:058][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2015.06.14-23.40.55:061][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2015.06.14-23.40.55:064][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2015.06.14-23.40.55:067][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2015.06.14-23.40.55:070][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2015.06.14-23.40.55:073][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2015.06.14-23.40.55:076][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2015.06.14-23.40.55:079][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2015.06.14-23.40.55:082][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2015.06.14-23.40.55:085][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Glass.uasset
+[2015.06.14-23.40.55:088][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2015.06.14-23.40.55:091][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2015.06.14-23.40.55:095][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2015.06.14-23.40.55:098][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2015.06.14-23.40.55:101][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2015.06.14-23.40.55:104][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2015.06.14-23.40.55:107][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2015.06.14-23.40.55:110][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2015.06.14-23.40.55:114][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2015.06.14-23.40.55:116][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2015.06.14-23.40.55:119][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2015.06.14-23.40.55:122][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2015.06.14-23.40.55:125][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2015.06.14-23.40.55:127][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2015.06.14-23.40.55:130][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2015.06.14-23.40.55:133][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2015.06.14-23.40.55:136][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2015.06.14-23.40.55:140][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2015.06.14-23.40.55:142][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2015.06.14-23.40.55:145][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2015.06.14-23.40.55:148][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2015.06.14-23.40.55:151][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2015.06.14-23.40.55:154][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2015.06.14-23.40.55:157][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2015.06.14-23.40.55:160][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2015.06.14-23.40.55:163][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2015.06.14-23.40.55:167][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2015.06.14-23.40.55:170][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2015.06.14-23.40.55:173][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2015.06.14-23.40.55:176][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.06.14-23.40.55:179][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2015.06.14-23.40.55:182][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2015.06.14-23.40.55:185][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2015.06.14-23.40.55:188][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2015.06.14-23.40.55:191][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2015.06.14-23.40.55:194][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2015.06.14-23.40.55:197][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/P_Explosion.uasset
+[2015.06.14-23.40.55:201][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/P_Fire.uasset
+[2015.06.14-23.40.55:204][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/P_Smoke.uasset
+[2015.06.14-23.40.55:207][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/P_Sparks.uasset
+[2015.06.14-23.40.55:210][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2015.06.14-23.40.55:213][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2015.06.14-23.40.55:216][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2015.06.14-23.40.55:220][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_Door.uasset
+[2015.06.14-23.40.55:223][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2015.06.14-23.40.55:226][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2015.06.14-23.40.55:229][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2015.06.14-23.40.55:232][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2015.06.14-23.40.55:235][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2015.06.14-23.40.55:238][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2015.06.14-23.40.55:241][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2015.06.14-23.40.55:244][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2015.06.14-23.40.55:247][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2015.06.14-23.40.55:250][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/MaterialSphere.uasset
+[2015.06.14-23.40.55:253][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Bush.uasset
+[2015.06.14-23.40.55:256][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Chair.uasset
+[2015.06.14-23.40.55:260][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2015.06.14-23.40.55:262][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Couch.uasset
+[2015.06.14-23.40.55:266][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Door.uasset
+[2015.06.14-23.40.55:269][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2015.06.14-23.40.55:272][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2015.06.14-23.40.55:275][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2015.06.14-23.40.55:278][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2015.06.14-23.40.55:281][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2015.06.14-23.40.55:286][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2015.06.14-23.40.55:289][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2015.06.14-23.40.55:292][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Rock.uasset
+[2015.06.14-23.40.55:295][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Shelf.uasset
+[2015.06.14-23.40.55:298][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Stairs.uasset
+[2015.06.14-23.40.55:301][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_Statue.uasset
+[2015.06.14-23.40.55:305][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_TableRound.uasset
+[2015.06.14-23.40.55:308][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2015.06.14-23.40.55:311][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2015.06.14-23.40.55:314][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2015.06.14-23.40.55:317][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2015.06.14-23.40.55:321][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2015.06.14-23.40.55:323][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2015.06.14-23.40.55:326][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2015.06.14-23.40.55:329][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2015.06.14-23.40.55:332][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2015.06.14-23.40.55:335][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2015.06.14-23.40.55:338][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2015.06.14-23.40.55:341][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2015.06.14-23.40.55:344][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2015.06.14-23.40.55:347][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2015.06.14-23.40.55:350][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2015.06.14-23.40.55:353][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2015.06.14-23.40.55:356][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2015.06.14-23.40.55:359][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2015.06.14-23.40.55:378][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2015.06.14-23.40.55:381][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2015.06.14-23.40.55:384][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/Metal_Tile_2.uasset
+[2015.06.14-23.40.55:387][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
+[2015.06.14-23.40.55:390][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/Sky54a2048.uasset
+[2015.06.14-23.40.55:393][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/Sky54a2048LDR.uasset
+[2015.06.14-23.40.55:396][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_ArmorMetal01.uasset
+[2015.06.14-23.40.55:398][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
+[2015.06.14-23.40.55:401][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Bark02_D.uasset
+[2015.06.14-23.40.55:404][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Bark02_N.uasset
+[2015.06.14-23.40.55:406][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
+[2015.06.14-23.40.55:409][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
+[2015.06.14-23.40.55:412][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2015.06.14-23.40.55:423][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2015.06.14-23.40.55:434][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2015.06.14-23.40.55:445][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2015.06.14-23.40.55:454][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2015.06.14-23.40.55:467][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2015.06.14-23.40.55:479][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2015.06.14-23.40.55:494][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2015.06.14-23.40.55:505][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2015.06.14-23.40.55:522][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2015.06.14-23.40.55:532][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2015.06.14-23.40.55:542][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2015.06.14-23.40.55:553][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2015.06.14-23.40.55:565][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Burst_M.uasset
+[2015.06.14-23.40.55:568][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Bush_D.uasset
+[2015.06.14-23.40.55:572][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Bush_N.uasset
+[2015.06.14-23.40.55:576][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2015.06.14-23.40.55:579][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2015.06.14-23.40.55:582][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Chair_M.uasset
+[2015.06.14-23.40.55:586][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Chair_N.uasset
+[2015.06.14-23.40.55:591][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2015.06.14-23.40.55:594][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Cliff_M.uasset
+[2015.06.14-23.40.55:597][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Cliff_N.uasset
+[2015.06.14-23.40.55:599][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Cobble_01_H.uasset
+[2015.06.14-23.40.55:602][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
+[2015.06.14-23.40.55:605][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
+[2015.06.14-23.40.55:608][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
+[2015.06.14-23.40.55:611][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
+[2015.06.14-23.40.55:615][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
+[2015.06.14-23.40.55:617][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2015.06.14-23.40.55:635][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2015.06.14-23.40.55:640][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2015.06.14-23.40.55:710][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2015.06.14-23.40.55:716][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2015.06.14-23.40.55:722][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2015.06.14-23.40.55:732][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2015.06.14-23.40.55:742][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2015.06.14-23.40.55:754][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete01_D.uasset
+[2015.06.14-23.40.55:758][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete01_N.uasset
+[2015.06.14-23.40.55:761][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_01_D.uasset
+[2015.06.14-23.40.55:764][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_01_N.uasset
+[2015.06.14-23.40.55:767][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_D.uasset
+[2015.06.14-23.40.55:769][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
+[2015.06.14-23.40.55:772][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
+[2015.06.14-23.40.55:775][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2015.06.14-23.40.55:789][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_N.uasset
+[2015.06.14-23.40.55:792][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2015.06.14-23.40.55:809][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2015.06.14-23.40.55:819][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2015.06.14-23.40.55:835][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2015.06.14-23.40.55:845][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2015.06.14-23.40.55:855][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2015.06.14-23.40.55:864][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2015.06.14-23.40.55:874][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2015.06.14-23.40.55:891][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
+[2015.06.14-23.40.55:894][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
+[2015.06.14-23.40.55:897][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
+[2015.06.14-23.40.55:900][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
+[2015.06.14-23.40.55:903][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
+[2015.06.14-23.40.55:905][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2015.06.14-23.40.55:912][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Dirt_D.uasset
+[2015.06.14-23.40.55:915][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Dirt_N.uasset
+[2015.06.14-23.40.55:917][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Door_M.uasset
+[2015.06.14-23.40.55:921][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Door_N.uasset
+[2015.06.14-23.40.55:925][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2015.06.14-23.40.55:928][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2015.06.14-23.40.55:934][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2015.06.14-23.40.55:937][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2015.06.14-23.40.55:941][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Frame_M.uasset
+[2015.06.14-23.40.55:944][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Frame_N.uasset
+[2015.06.14-23.40.55:948][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
+[2015.06.14-23.40.55:951][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
+[2015.06.14-23.40.55:954][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
+[2015.06.14-23.40.55:957][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
+[2015.06.14-23.40.55:960][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
+[2015.06.14-23.40.55:962][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
+[2015.06.14-23.40.55:965][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
+[2015.06.14-23.40.55:968][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
+[2015.06.14-23.40.55:971][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2015.06.14-23.40.55:974][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Gravel_D.uasset
+[2015.06.14-23.40.55:977][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Gravel_N.uasset
+[2015.06.14-23.40.55:980][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_01_D.uasset
+[2015.06.14-23.40.55:982][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_01_N.uasset
+[2015.06.14-23.40.55:985][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_02_D.uasset
+[2015.06.14-23.40.55:988][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_02_N.uasset
+[2015.06.14-23.40.55:991][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
+[2015.06.14-23.40.55:993][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
+[2015.06.14-23.40.55:996][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
+[2015.06.14-23.40.55:999][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2015.06.14-23.40.56:014][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2015.06.14-23.40.56:029][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2015.06.14-23.40.56:043][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2015.06.14-23.40.56:054][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2015.06.14-23.40.56:071][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2015.06.14-23.40.56:083][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
+[2015.06.14-23.40.56:085][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2015.06.14-23.40.56:089][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2015.06.14-23.40.56:094][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2015.06.14-23.40.56:108][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2015.06.14-23.40.56:146][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2015.06.14-23.40.56:158][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
+[2015.06.14-23.40.56:161][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
+[2015.06.14-23.40.56:164][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2015.06.14-23.40.56:177][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2015.06.14-23.40.56:183][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
+[2015.06.14-23.40.56:186][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
+[2015.06.14-23.40.56:189][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
+[2015.06.14-23.40.56:192][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
+[2015.06.14-23.40.56:195][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
+[2015.06.14-23.40.56:197][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
+[2015.06.14-23.40.56:200][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
+[2015.06.14-23.40.56:203][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
+[2015.06.14-23.40.56:206][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2015.06.14-23.40.56:218][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2015.06.14-23.40.56:253][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
+[2015.06.14-23.40.56:256][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
+[2015.06.14-23.40.56:259][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2015.06.14-23.40.56:266][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2015.06.14-23.40.56:274][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
+[2015.06.14-23.40.56:277][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
+[2015.06.14-23.40.56:279][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_PaintedMetal01.uasset
+[2015.06.14-23.40.56:282][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
+[2015.06.14-23.40.56:285][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
+[2015.06.14-23.40.56:484][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
+[2015.06.14-23.40.56:491][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2015.06.14-23.40.56:712][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_01_D.uasset
+[2015.06.14-23.40.56:715][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_01_N.uasset
+[2015.06.14-23.40.56:718][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_03_D.uasset
+[2015.06.14-23.40.56:721][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_03_N.uasset
+[2015.06.14-23.40.56:724][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_05_D.uasset
+[2015.06.14-23.40.56:727][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_05_N.uasset
+[2015.06.14-23.40.56:730][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_06_D.uasset
+[2015.06.14-23.40.56:733][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_06_N.uasset
+[2015.06.14-23.40.56:736][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_07_D.uasset
+[2015.06.14-23.40.56:739][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_07_N.uasset
+[2015.06.14-23.40.56:742][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_07b_D.uasset
+[2015.06.14-23.40.56:745][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_08_D.uasset
+[2015.06.14-23.40.56:748][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_08_N.uasset
+[2015.06.14-23.40.56:751][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_09_D.uasset
+[2015.06.14-23.40.56:754][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_10_D.uasset
+[2015.06.14-23.40.56:838][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_10_N.uasset
+[2015.06.14-23.40.56:841][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_11b_D.uasset
+[2015.06.14-23.40.56:844][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2015.06.14-23.40.56:857][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2015.06.14-23.40.56:878][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
+[2015.06.14-23.40.56:881][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
+[2015.06.14-23.40.56:884][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
+[2015.06.14-23.40.56:887][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2015.06.14-23.40.57:338][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2015.06.14-23.40.57:687][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2015.06.14-23.40.57:700][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2015.06.14-23.40.57:715][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2015.06.14-23.40.57:788][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2015.06.14-23.40.57:800][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2015.06.14-23.40.58:281][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2015.06.14-23.40.58:587][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Rocky_01_N.uasset
+[2015.06.14-23.40.58:689][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2015.06.14-23.40.58:822][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2015.06.14-23.40.58:827][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2015.06.14-23.40.58:830][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
+[2015.06.14-23.40.58:877][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Sky_Stars.uasset
+[2015.06.14-23.40.58:880][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2015.06.14-23.40.58:886][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2015.06.14-23.40.58:889][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2015.06.14-23.40.58:937][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Statue_M.uasset
+[2015.06.14-23.40.58:940][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Statue_N.uasset
+[2015.06.14-23.40.58:943][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
+[2015.06.14-23.40.58:946][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
+[2015.06.14-23.40.58:950][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2015.06.14-23.40.58:953][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2015.06.14-23.40.58:958][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2015.06.14-23.40.58:961][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2015.06.14-23.40.58:967][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2015.06.14-23.40.58:971][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2015.06.14-23.40.58:974][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2015.06.14-23.40.58:978][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2015.06.14-23.40.59:074][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
+[2015.06.14-23.40.59:122][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
+[2015.06.14-23.40.59:125][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
+[2015.06.14-23.40.59:128][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
+[2015.06.14-23.40.59:141][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Water_M.uasset
+[2015.06.14-23.40.59:146][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Water_N.uasset
+[2015.06.14-23.40.59:152][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
+[2015.06.14-23.40.59:155][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
+[2015.06.14-23.40.59:162][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_a_d.uasset
+[2015.06.14-23.40.59:165][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_A_N.uasset
+[2015.06.14-23.40.59:167][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_A_S.uasset
+[2015.06.14-23.40.59:170][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2015.06.14-23.40.59:188][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2015.06.14-23.40.59:196][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2015.06.14-23.40.59:214][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2015.06.14-23.40.59:291][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2015.06.14-23.40.59:803][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2015.06.14-23.40.59:820][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2015.06.14-23.40.59:828][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2015.06.14-23.40.59:926][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2015.06.14-23.40.59:934][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
+[2015.06.14-23.41.03:582][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.06.14-23.41.07:357][  0]LogSavePackage: Save=1033.830688ms
+[2015.06.14-23.41.07:357][  0]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Floor_400x4001E509C3C4E5425868A377FB101D1CB48.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.06.14-23.41.07:368][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.06.14-23.41.07:375][  0]Cmd: MAP LOAD FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.14-23.41.07:377][  0]LightingResults: New page: Lighting Build
+[2015.06.14-23.41.07:413][  0]MapCheck: New page: Map Check
+[2015.06.14-23.41.07:413][  0]LightingResults: New page: Lighting Build
+[2015.06.14-23.41.07:432][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEA63D7B00
+[2015.06.14-23.41.07:453][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.14-23.41.17:290][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.14-23.41.19:896][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.14-23.41.19:898][  0]Cmd: MAP CHECKDEP
+[2015.06.14-23.41.19:899][  0]MapCheck: New page: ThirdPersonExampleMap - Jun 14, 2015, 3:41:19 PM
+[2015.06.14-23.41.20:146][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 247.297ms to complete.
+[2015.06.14-23.41.20:146][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 12.771
+[2015.06.14-23.41.20:917][  0]LogCollectionManager: Loaded 0 collections in 0.004721 seconds
+[2015.06.14-23.41.20:944][  0]LogContentBrowser: Native class hierarchy populated in 0.0267 seconds. Added 1696 classes and 261 folders.
+[2015.06.14-23.41.21:074][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0062 seconds. Added 1 classes and 2 folders.
+[2015.06.14-23.41.21:267][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.14-23.41.21:270][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.14-23.41.21:279][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.14-23.41.21:353][  0]LogLoad: Full Startup: 125.77 seconds (BP compile: 2.23 seconds)
+[2015.06.14-23.41.21:841][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.06.14-23.41.24:153][  0]LogRenderer:Warning: Reallocating scene render targets to support 1008x456 (Frame:3).
+[2015.06.14-23.41.28:707][ 13]LogAssetRegistry: Asset discovery search completed in 62.3871 seconds
+[2015.06.15-00.02.56:098][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-00.03.04:308][207]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.06.15-00.03.06:342][223]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.06.15-00.03.12:766][414]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-00.03.36:095][511]LogPaperJsonImporter: Parsing sprite sheet exported from 'http://www.codeandweb.com/texturepacker'
+[2015.06.15-00.03.36:109][511]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/quinlanb/Documents/PropensityTilt/SoldierSprites.png)
+[2015.06.15-00.03.42:848][511]0.000066 seconds to analyze Texture2D /Game/TopDown2D/Textures/SoldierSprites.SoldierSprites
+
+[2015.06.15-00.03.42:852][511]LogTexture:Display: Building textures: SoldierSprites (BGRA8)
+[2015.06.15-00.03.43:187][511]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.15-00.03.43:188][511]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D/Textures'
+[2015.06.15-00.03.44:077][511]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.15-00.03.44:078][511]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-00.03.44:715][512]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.113
+[2015.06.15-00.03.44:768][512]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/SoldierSprites] ([1] browsable assets)...
+[2015.06.15-00.03.44:861][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/SoldierSprites]
+[2015.06.15-00.03.46:009][512]LogSavePackage: Save=1132.776855ms
+[2015.06.15-00.03.46:042][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/SoldierSprites_Auto17C9BC14049B7610230DFFC83C18DB436.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/SoldierSprites_Auto1.uasset'
+[2015.06.15-00.03.46:252][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Textures/SoldierSprites] ([1] browsable assets)...
+[2015.06.15-00.03.46:380][512]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TopDown2D/Textures/SoldierSprites.SoldierSprites]
+[2015.06.15-00.03.46:380][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Textures/SoldierSprites]
+[2015.06.15-00.03.49:073][512]LogSavePackage: Save=2669.759521ms
+[2015.06.15-00.03.49:104][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/SoldierSprites_Auto1C14622A847DF751430FF2E97EDDEE427.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Textures/SoldierSprites_Auto1.uasset'
+[2015.06.15-00.03.49:290][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Idle_01_png] ([1] browsable assets)...
+[2015.06.15-00.03.49:467][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Idle_01_png.Idle_01_png]
+[2015.06.15-00.03.49:467][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Idle_01_png]
+[2015.06.15-00.03.50:706][512]LogSavePackage: Save=1226.945801ms
+[2015.06.15-00.03.50:738][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Idle_01_png_Auto1BE7B0314424E2A68740F4887ED99625F.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Idle_01_png_Auto1.uasset'
+[2015.06.15-00.03.50:920][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Idle_02_png] ([1] browsable assets)...
+[2015.06.15-00.03.51:050][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Idle_02_png.Idle_02_png]
+[2015.06.15-00.03.51:050][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Idle_02_png]
+[2015.06.15-00.03.52:288][512]LogSavePackage: Save=1226.847290ms
+[2015.06.15-00.03.52:319][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Idle_02_png_Auto135AF74D04862BB2F66072C81D9DAB050.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Idle_02_png_Auto1.uasset'
+[2015.06.15-00.03.52:502][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Idle_03_png] ([1] browsable assets)...
+[2015.06.15-00.03.52:620][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Idle_03_png.Idle_03_png]
+[2015.06.15-00.03.52:620][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Idle_03_png]
+[2015.06.15-00.03.53:953][512]LogSavePackage: Save=1322.124634ms
+[2015.06.15-00.03.53:986][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Idle_03_png_Auto19E3227B64C578DCCD381188F0B6B292A.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Idle_03_png_Auto1.uasset'
+[2015.06.15-00.03.54:173][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Idle_04_png] ([1] browsable assets)...
+[2015.06.15-00.03.54:291][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Idle_04_png.Idle_04_png]
+[2015.06.15-00.03.54:291][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Idle_04_png]
+[2015.06.15-00.03.55:522][512]LogSavePackage: Save=1220.748657ms
+[2015.06.15-00.03.55:554][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Idle_04_png_Auto1CDCE976D45060EFE28DBD9A32689B756.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Idle_04_png_Auto1.uasset'
+[2015.06.15-00.03.55:737][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Run_01_png] ([1] browsable assets)...
+[2015.06.15-00.03.55:863][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Run_01_png.Run_01_png]
+[2015.06.15-00.03.55:863][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Run_01_png]
+[2015.06.15-00.03.57:089][512]LogSavePackage: Save=1214.877319ms
+[2015.06.15-00.03.57:121][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Run_01_png_Auto1F69CE15A4E7FE87F0A7BC9AD681DF9CA.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Run_01_png_Auto1.uasset'
+[2015.06.15-00.03.57:310][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Run_02_png] ([1] browsable assets)...
+[2015.06.15-00.03.57:433][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Run_02_png.Run_02_png]
+[2015.06.15-00.03.57:433][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Run_02_png]
+[2015.06.15-00.03.58:649][512]LogSavePackage: Save=1196.822388ms
+[2015.06.15-00.03.58:682][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Run_02_png_Auto113E852A24F21E2F50FC0539B1B739312.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Run_02_png_Auto1.uasset'
+[2015.06.15-00.03.58:863][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Run_03_png] ([1] browsable assets)...
+[2015.06.15-00.03.58:980][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Run_03_png.Run_03_png]
+[2015.06.15-00.03.58:980][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Run_03_png]
+[2015.06.15-00.04.00:195][512]LogSavePackage: Save=1204.243896ms
+[2015.06.15-00.04.00:227][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Run_03_png_Auto15BBB149049B1EDD898065395E64911F3.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Run_03_png_Auto1.uasset'
+[2015.06.15-00.04.00:424][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Run_04_png] ([1] browsable assets)...
+[2015.06.15-00.04.00:549][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Run_04_png.Run_04_png]
+[2015.06.15-00.04.00:549][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Run_04_png]
+[2015.06.15-00.04.01:795][512]LogSavePackage: Save=1237.202515ms
+[2015.06.15-00.04.01:827][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Run_04_png_Auto18C4D97B24F6FF6975E02029C3158C4B9.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Run_04_png_Auto1.uasset'
+[2015.06.15-00.04.02:015][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Run_05_png] ([1] browsable assets)...
+[2015.06.15-00.04.02:138][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Run_05_png.Run_05_png]
+[2015.06.15-00.04.02:138][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Run_05_png]
+[2015.06.15-00.04.03:366][512]LogSavePackage: Save=1218.224243ms
+[2015.06.15-00.04.03:376][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Run_05_png_Auto1D77B7B1945AF393887A74D84D270B0F3.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Run_05_png_Auto1.uasset'
+[2015.06.15-00.04.03:567][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Run_06_png] ([1] browsable assets)...
+[2015.06.15-00.04.03:695][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Run_06_png.Run_06_png]
+[2015.06.15-00.04.03:695][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Run_06_png]
+[2015.06.15-00.04.04:946][512]LogSavePackage: Save=1221.719116ms
+[2015.06.15-00.04.04:978][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Run_06_png_Auto12CE972A54177BA6BE08239B9FBE9AEEF.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Run_06_png_Auto1.uasset'
+[2015.06.15-00.04.05:161][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown2D/Frames/Run_07_png] ([1] browsable assets)...
+[2015.06.15-00.04.05:278][512]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDown2D/Frames/Run_07_png.Run_07_png]
+[2015.06.15-00.04.05:278][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/Frames/Run_07_png]
+[2015.06.15-00.04.06:470][512]LogSavePackage: Save=1181.665527ms
+[2015.06.15-00.04.06:504][512]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Run_07_png_Auto17B693B4A4306AED4A604DDA69BECAEFE.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/Frames/Run_07_png_Auto1.uasset'
+[2015.06.15-00.04.06:637][512]LogFileHelpers: Auto-saving content packages took 21.922
+[2015.06.15-00.05.14:835][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Idle_01_png'
+[2015.06.15-00.05.14:871][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Idle_01_png'
+[2015.06.15-00.05.14:872][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Idle_02_png'
+[2015.06.15-00.05.14:872][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Idle_02_png'
+[2015.06.15-00.05.14:873][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Idle_03_png'
+[2015.06.15-00.05.14:874][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Idle_03_png'
+[2015.06.15-00.05.14:874][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Idle_04_png'
+[2015.06.15-00.05.14:875][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Idle_04_png'
+[2015.06.15-00.05.14:876][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_01_png'
+[2015.06.15-00.05.14:877][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_01_png'
+[2015.06.15-00.05.14:877][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_02_png'
+[2015.06.15-00.05.14:878][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_02_png'
+[2015.06.15-00.05.14:879][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_03_png'
+[2015.06.15-00.05.14:880][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_03_png'
+[2015.06.15-00.05.14:881][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_04_png'
+[2015.06.15-00.05.14:882][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_04_png'
+[2015.06.15-00.05.14:883][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_05_png'
+[2015.06.15-00.05.14:884][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_05_png'
+[2015.06.15-00.05.14:885][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_06_png'
+[2015.06.15-00.05.14:886][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_06_png'
+[2015.06.15-00.05.14:887][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_07_png'
+[2015.06.15-00.05.14:888][328]LogLinker:Warning: Can't find file '/Game/TopDown2D/Frames/Run_07_png'
+[2015.06.15-00.05.15:043][328]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.15-00.05.15:045][328]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-00.05.15:046][328]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-00.05.48:585][867]LogRenderer:Warning: Reallocating scene render targets to support 1008x608 (Frame:4907).
+[2015.06.15-00.06.11:180][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Idle" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Idle.uasset" SILENT=true
+[2015.06.15-00.06.11:380][286]LogSavePackage: Save=193.487259ms
+[2015.06.15-00.06.11:380][286]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Idle08EE8F674B08B4ECDDDBD2AEAD469B05.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Idle.uasset'
+[2015.06.15-00.06.13:014][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Idle" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Idle.uasset" SILENT=true
+[2015.06.15-00.06.13:084][311]LogSavePackage: Save=10.435800ms
+[2015.06.15-00.06.13:084][311]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Idle3362AA9B47FCCAAEE7EC5F89B9657BB4.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Idle.uasset'
+[2015.06.15-00.06.29:654][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Run" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Run.uasset" SILENT=true
+[2015.06.15-00.06.29:849][598]LogSavePackage: Save=188.801529ms
+[2015.06.15-00.06.29:849][598]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Run2DC5EF2946D99576950D149598B340FF.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Run.uasset'
+[2015.06.15-00.06.59:935][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/Run" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Run.uasset" SILENT=true
+[2015.06.15-00.06.59:957][107]LogSavePackage: Save=7.541950ms
+[2015.06.15-00.06.59:957][107]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Run8973F0A6477B5BA7B58A0584EE595D57.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/Run.uasset'
+[2015.06.15-00.07.52:971][248]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-00.08.06:687][494]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEA12A9B20
+[2015.06.15-00.08.06:687][494]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEA12A87C0
+[2015.06.15-00.08.06:694][494]LogMetaData: Removing '/Game/TopDown2D/TopDownCharacter.TopDownCharacter:UserConstructionScript.K2Node_FunctionEntry_92' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-00.08.06:695][494]LogMetaData: Removing '/Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_Event_7' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-00.08.06:695][494]LogMetaData: Removing '/Game/TopDown2D/TopDownCharacter.SKEL_TopDownCharacter_C' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-00.08.06:695][494]LogMetaData: Removing '/Game/TopDown2D/TopDownCharacter.TopDownCharacter_C' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-00.08.06:695][494]LogMetaData: Removing '/Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_Event_6' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-00.08.06:695][494]LogMetaData: Removing '/Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_Event_8' ref from Metadata '/Game/TopDown2D/NewBlueprint.PackageMetaData'
+[2015.06.15-00.08.06:853][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/TopDownCharacter" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset" SILENT=true
+[2015.06.15-00.08.06:949][494]LogSavePackage: Save=71.101341ms
+[2015.06.15-00.08.06:949][494]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacterEBD94CFF4590E4EEDFECD39EB82F8487.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset'
+[2015.06.15-00.08.49:503][648]LogRenderer:Warning: Reallocating scene render targets to support 1008x704 (Frame:7685).
+[2015.06.15-00.10.45:283][769]LogRenderer:Warning: Reallocating scene render targets to support 1008x720 (Frame:8590).
+[2015.06.15-00.14.14:270][836]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.062
+[2015.06.15-00.14.15:374][836]LogSavePackage: Save=1089.066162ms
+[2015.06.15-00.14.15:406][836]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/NewBlueprint_Auto256F0ACEA40BAC89A82DD6BB7A85B453A.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/NewBlueprint_Auto2.uasset'
+[2015.06.15-00.14.15:599][836]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/TopDownCharacter] ([1] browsable assets)...
+[2015.06.15-00.14.15:599][836]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/TopDownCharacter]
+[2015.06.15-00.14.16:757][836]LogSavePackage: Save=1058.080688ms
+[2015.06.15-00.14.16:789][836]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacter_Auto250E307FE429B905080E1B1ADA5635F24.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/TopDownCharacter_Auto2.uasset'
+[2015.06.15-00.14.16:924][836]LogFileHelpers: Auto-saving content packages took 2.654
+[2015.06.15-00.15.11:736][457]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.15-00.24.18:270][724]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.078
+[2015.06.15-00.24.18:341][724]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/TopDownCharacter] ([1] browsable assets)...
+[2015.06.15-00.24.18:447][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/TopDownCharacter]
+[2015.06.15-00.24.20:540][724]LogSavePackage: Save=2019.150757ms
+[2015.06.15-00.24.20:604][724]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacter_Auto3EEDF50DE49B253731225EDB55C8F9DDA.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/TopDownCharacter_Auto3.uasset'
+[2015.06.15-00.24.20:736][724]LogFileHelpers: Auto-saving content packages took 2.465
+[2015.06.15-00.25.18:697][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/TopDownCharacter" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset" SILENT=true
+[2015.06.15-00.25.18:792][749]LogSavePackage: Save=76.608894ms
+[2015.06.15-00.25.18:792][749]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacter52A101114A6E2EE72B17A692C84539C2.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset'
+[2015.06.15-00.26.01:101][944]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.15-00.26.01:441][944]BlueprintEditorCompileResults: Info [2805.85] Compile of TopDownCharacter successful! [in 325 ms]
+[2015.06.15-00.26.06:078][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown2D/TopDownCharacter" FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset" SILENT=true
+[2015.06.15-00.26.06:178][ 28]LogSavePackage: Save=74.072739ms
+[2015.06.15-00.26.06:178][ 28]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacter44C74B524D7E673A351D9F8C350F771F.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/TopDown2D/TopDownCharacter.uasset'
+[2015.06.15-00.27.11:935][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.06.15-00.36.41:680][303]LogSavePackage: Save=936.124329ms
+[2015.06.15-00.36.41:680][303]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonCharacter7A4304DE4E9D56C7194B14901DDFA877.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.06.15-00.36.45:721][375]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-00.37.03:778][752]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.06.15-00.37.03:778][752]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.06.15-00.37.03:779][752]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.06.15-00.37.03:779][752]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.06.15-00.37.03:779][752]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.06.15-00.37.03:780][752]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.06.15-00.37.03:780][752]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.06.15-00.37.03:781][752]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.06.15-00.37.03:781][752]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.06.15-00.37.03:807][752]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_7346 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_7346
+[2015.06.15-00.37.03:807][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_7346.EdGraphPin_2372) from referencer (EdGraphPin /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_InputAxisEvent_85.EdGraphPin_2351).  Import failed...
+[2015.06.15-00.37.03:807][752]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7346.EdGraphPin_2372''
+[2015.06.15-00.37.03:808][752]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_7346 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_7346
+[2015.06.15-00.37.03:808][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_7346.EdGraphPin_2376) from referencer (EdGraphPin /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_InputAxisEvent_85.EdGraphPin_2352).  Import failed...
+[2015.06.15-00.37.03:808][752]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7346.EdGraphPin_2376''
+[2015.06.15-00.37.03:814][752]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_7445 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_7445
+[2015.06.15-00.37.03:814][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_7445.EdGraphPin_2390) from referencer (EdGraphPin /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_InputAxisEvent_95.EdGraphPin_2362).  Import failed...
+[2015.06.15-00.37.03:814][752]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7445.EdGraphPin_2390''
+[2015.06.15-00.37.03:815][752]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_7445 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_7445
+[2015.06.15-00.37.03:815][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_7445.EdGraphPin_2394) from referencer (EdGraphPin /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_InputAxisEvent_95.EdGraphPin_2363).  Import failed...
+[2015.06.15-00.37.03:815][752]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7445.EdGraphPin_2394''
+[2015.06.15-00.37.03:826][752]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_8733 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_8733
+[2015.06.15-00.37.03:827][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_8733.EdGraphPin_2416) from referencer (EdGraphPin /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_7346.EdGraphPin_2375).  Import failed...
+[2015.06.15-00.37.03:827][752]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8733.EdGraphPin_2416''
+[2015.06.15-00.37.03:838][752]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_8767 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_8767
+[2015.06.15-00.37.03:838][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_8767.EdGraphPin_2425) from referencer (EdGraphPin /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_7445.EdGraphPin_2393).  Import failed...
+[2015.06.15-00.37.03:839][752]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8767.EdGraphPin_2425''
+[2015.06.15-00.37.03:846][752]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_20844 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_20844
+[2015.06.15-00.37.03:846][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_20844.EdGraphPin_2481) from referencer (EdGraphPin /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_8160.EdGraphPin_2409).  Import failed...
+[2015.06.15-00.37.03:846][752]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_20844.EdGraphPin_2481''
+[2015.06.15-00.37.03:853][752]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_21305 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_21305
+[2015.06.15-00.37.03:853][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_21305.EdGraphPin_2499) from referencer (EdGraphPin /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_8733.EdGraphPin_2415).  Import failed...
+[2015.06.15-00.37.03:853][752]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_21305.EdGraphPin_2499''
+[2015.06.15-00.37.03:862][752]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_21305 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_21305
+[2015.06.15-00.37.03:862][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_21305.EdGraphPin_2499) from referencer (EdGraphPin /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_8767.EdGraphPin_2424).  Import failed...
+[2015.06.15-00.37.03:862][752]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_21305.EdGraphPin_2499''
+[2015.06.15-00.37.03:873][752]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_21305 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_21305
+[2015.06.15-00.37.03:873][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_21305.EdGraphPin_2497) from referencer (EdGraphPin /Game/TopDown2D/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_20844.EdGraphPin_2483).  Import failed...
+[2015.06.15-00.37.03:873][752]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_21305.EdGraphPin_2497''
+[2015.06.15-00.37.17:098][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.15-00.37.17:163][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DED2E622A0
+[2015.06.15-00.37.17:171][929]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.098
+[2015.06.15-00.37.17:228][929]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/TopDownCharacter] ([1] browsable assets)...
+[2015.06.15-00.37.17:315][929]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/TopDownCharacter]
+[2015.06.15-00.37.18:419][929]LogSavePackage: Save=1079.025269ms
+[2015.06.15-00.37.18:451][929]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacter_Auto494114D884F05F79115DE94BE15EE2D61.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/TopDownCharacter_Auto4.uasset'
+[2015.06.15-00.37.18:584][929]LogFileHelpers: Auto-saving content packages took 1.413
+[2015.06.15-00.37.52:085][387]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.06.15-00.38.00:246][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.06.15-00.38.06:602][650]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.15-00.38.49:505][135]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2015.06.15-00.38.49:711][135]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.15-00.38.49:800][135]BlueprintEditorCompileResults: Info [3574.20] Compile of ThirdPersonGameMode successful! [in 295 ms]
+[2015.06.15-00.38.50:971][150]LogSavePackage: Save=37.965569ms
+[2015.06.15-00.38.50:972][150]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonGameMode04CAE42740B9C97EEEFDD394738D8F7E.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2015.06.15-00.38.54:709][212]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.15-00.38.55:033][212]BlueprintEditorCompileResults: Info [3579.43] Compile of TopDownCharacter successful! [in 323 ms]
+[2015.06.15-00.38.57:654][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-00.38.58:313][279]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2015.06.15-00.39.00:883][344]Cmd: DELETE
+[2015.06.15-00.39.00:883][344]Cmd: ACTOR DELETE
+[2015.06.15-00.39.00:920][344]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2015.06.15-00.39.01:023][344]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DED57B0F40
+[2015.06.15-00.39.01:032][344]LogEditorActor: Deleted 1 Actors (0.132 secs)
+[2015.06.15-00.39.11:966][424]LogSavePackage: Save=7651.416016ms
+[2015.06.15-00.39.11:966][424]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap1FE5EB77456D549B5FA119B20A8E8E92.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.06.15-00.39.16:004][500]MapCheck: New page: Map Check
+[2015.06.15-00.39.16:308][500]Cmd: MAP REBUILD ALLVISIBLE
+[2015.06.15-00.39.16:312][500]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.06.15-00.39.16:474][500]LightingResults: New page: Lighting Build - Jun 14, 2015, 4:39:16 PM
+[2015.06.15-00.39.43:975][500]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.06.15-00.39.43:975][500]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.06.15-00.39.43:975][500]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.06.15-00.39.43:975][500]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.06.15-00.39.43:975][500]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.06.15-00.39.45:083][500]LogEditorBuildUtils: Build time 0:00:28
+[2015.06.15-00.39.45:206][501]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2015.06.15-00.39.45:268][501]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2015.06.15-00.39.48:731][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE9F9E9EE0
+[2015.06.15-00.39.48:733][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEE81AA7A0

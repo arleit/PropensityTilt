@@ -1,0 +1,164 @@
+﻿Log file open, 06/14/15 20:52:51
+LogInit:Display: Running engine for game: ThirdPersonToTopDown
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.15-00.52.51:496][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.06.15-00.52.51:575][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.15-00.52.51:615][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.15-00.52.51:642][  0]LogInit: Object subsystem initialized
+[2015.06.15-00.52.51:647][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.15-00.52.51:647][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.15-00.52.51:647][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.15-00.52.51:647][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.15-00.52.51:647][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.15-00.52.51:647][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.15-00.52.51:648][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.15-00.52.51:648][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.15-00.52.51:696][  0]LogInit: Computer: WITPK17B0D
+[2015.06.15-00.52.51:696][  0]LogInit: User: quinlanb
+[2015.06.15-00.52.51:697][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.15-00.52.51:697][  0]LogInit: High frequency timer resolution =2.630743 MHz
+[2015.06.15-00.52.51:697][  0]LogMemory: Memory total: Physical=7.6GB (8GB approx) Virtual=8192.0GB
+[2015.06.15-00.52.51:698][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.15-00.52.51:698][  0]LogMemory: Process Physical Memory: 48.47 MB used, 48.47 MB peak
+[2015.06.15-00.52.51:698][  0]LogMemory: Process Virtual Memory: 23.82 MB used, 23.82 MB peak
+[2015.06.15-00.52.51:698][  0]LogMemory: Physical Memory: 3856.86 MB used, 7758.79 MB total
+[2015.06.15-00.52.51:698][  0]LogMemory: Virtual Memory: 337.81 MB used, 8388608.00 MB total
+[2015.06.15-00.52.51:779][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.06.15-00.52.51:780][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory, 1 output[s]
+[2015.06.15-00.52.51:816][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA Quadro K1000M  (Feature Level 11_0)
+[2015.06.15-00.52.51:816][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory, 0 output[s]
+[2015.06.15-00.52.51:818][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.15-00.52.51:818][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 3623MB of shared system memory, 0 output[s]
+[2015.06.15-00.52.51:818][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.15-00.52.51:836][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.15-00.52.51:864][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.15-00.52.51:973][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.15-00.52.52:132][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.15-00.52.52:132][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.15-00.52.52:341][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.15-00.52.58:568][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.15-00.53.00:010][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.15-00.53.00:187][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.15-00.53.00:270][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/quinlanb/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.15-00.53.00:270][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/quinlanb/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.15-00.53.00:271][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.15-00.53.00:271][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.15-00.53.00:610][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.15-00.53.00:624][  0]LogDerivedDataCache: Using Local data cache path C:/Users/quinlanb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.15-00.53.01:429][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.15-00.53.01:429][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.15-00.53.02:575][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.15-00.53.02:843][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.15-00.53.05:173][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.15-00.53.05:702][  0]SourceControl: Info Source control is disabled
+[2015.06.15-00.53.05:702][  0]SourceControl: Info Source control is disabled
+[2015.06.15-00.53.05:702][  0]SourceControl: Info Source control is disabled
+[2015.06.15-00.53.05:703][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.15-00.53.05:703][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.15-00.53.05:731][  0]SourceControl: Info Source control is disabled
+[2015.06.15-00.53.06:264][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.15-00.53.06:264][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.15-00.53.06:473][  0]LogEngine: Initializing Engine...
+[2015.06.15-00.53.08:876][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.15-00.53.08:923][  0]LogInit: FAudioDevice initialized.
+[2015.06.15-00.53.09:026][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.15-00.53.09:064][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/quinlanb/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.15-00.53.09:070][  0]LogInit: Texture streaming: Enabled
+[2015.06.15-00.53.09:325][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.15-00.53.09:325][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.15-00.53.09:325][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.15-00.53.09:325][  0]LogAnalytics: SetUserId 4375bc6e4b71b86481da4b9a9d418a06|2c72959241184ef3a5aec64c68306f0e|4f01094e-9fb0-4aac-9eaa-adf54f142693
+[2015.06.15-00.53.09:325][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.15-00.53.09:418][  0]LogInit: Transaction tracking system initialized
+[2015.06.15-00.53.09:881][  0]BlueprintLog: New page: Editor Load
+[2015.06.15-00.53.09:959][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.06.15-00.53.09:960][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.15-00.53.11:354][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.15-00.53.12:335][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.15-00.53.13:094][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.15-00.53.13:095][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.15-00.53.13:211][  0]LogConsoleResponse:Display: 
+[2015.06.15-00.53.13:715][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.15-00.53.14:105][  0]SourceControl: Info Source control is disabled
+[2015.06.15-00.53.33:972][  0]Cmd: MAP LOAD FILE="../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.15-00.53.33:974][  0]LightingResults: New page: Lighting Build
+[2015.06.15-00.53.34:015][  0]MapCheck: New page: Map Check
+[2015.06.15-00.53.34:015][  0]LightingResults: New page: Lighting Build
+[2015.06.15-00.53.34:042][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003D82B67B00
+[2015.06.15-00.53.37:003][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.15-00.53.39:945][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-00.53.39:947][  0]Cmd: MAP CHECKDEP
+[2015.06.15-00.53.39:948][  0]MapCheck: New page: ThirdPersonExampleMap - Jun 14, 2015, 4:53:39 PM
+[2015.06.15-00.53.40:187][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 239.371ms to complete.
+[2015.06.15-00.53.40:187][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.215
+[2015.06.15-00.53.40:721][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1cec_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_2180_0///////STATCAT_Advanced////
+[2015.06.15-00.53.40:721][  0]LogCollectionManager: Loaded 0 collections in 0.004644 seconds
+[2015.06.15-00.53.40:759][  0]LogContentBrowser: Native class hierarchy populated in 0.0374 seconds. Added 1696 classes and 261 folders.
+[2015.06.15-00.53.40:926][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0060 seconds. Added 1 classes and 2 folders.
+[2015.06.15-00.53.41:606][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.15-00.53.41:636][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.15-00.53.41:645][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.15-00.53.41:713][  0]LogLoad: Full Startup: 53.91 seconds (BP compile: 0.38 seconds)
+[2015.06.15-00.53.41:769][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.06.15-00.53.42:347][  0]LogRenderer:Warning: Reallocating scene render targets to support 1008x456 (Frame:2).
+[2015.06.15-00.53.43:490][ 12]LogAssetRegistry: Asset discovery search completed in 33.5418 seconds
+[2015.06.15-00.53.45:750][ 72]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-00.53.45:750][ 72]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 4:53:45 PM)
+[2015.06.15-00.53.45:825][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036489s)
+[2015.06.15-00.53.45:827][ 72]LogPlayLevel: PIE: World Init took: (0.001748s)
+[2015.06.15-00.53.45:828][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.038718s)
+[2015.06.15-00.53.45:998][ 72]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-00.53.46:244][ 72]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-00.53.46:260][ 72]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.06.14-20.53.46
+[2015.06.15-00.53.46:261][ 72]LogWorld: Bringing up level for play took: 0.015968
+[2015.06.15-00.53.46:369][ 72]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.189
+[2015.06.15-00.56.41:768][793]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003D88178B80
+[2015.06.15-00.57.05:015][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.15-00.57.24:117][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.06.15-00.57.33:434][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2015.06.15-00.57.39:032][464]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.15-00.57.39:032][464]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 14, 2015, 4:57:39 PM)
+[2015.06.15-00.57.39:121][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052120s)
+[2015.06.15-00.57.39:123][464]LogPlayLevel: PIE: World Init took: (0.001918s)
+[2015.06.15-00.57.39:123][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.054560s)
+[2015.06.15-00.57.39:208][464]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.15-00.57.39:214][464]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.15-00.57.39:230][464]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.06.14-20.57.39
+[2015.06.15-00.57.39:232][464]LogWorld: Bringing up level for play took: 0.016517
+[2015.06.15-00.57.39:239][464]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.059
+[2015.06.15-00.58.19:363][675]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003DFE1FD440
+[2015.06.15-00.58.24:405][790]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown2D'
+[2015.06.15-01.07.25:280][707]LogSavePackage: Save=6161.041016ms
+[2015.06.15-01.07.25:280][707]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/ThirdPersonExampleMap_Auto1A5E88B0442F70445C40A5AB65BD2D26C.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2015.06.15-01.07.25:327][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 6.497
+[2015.06.15-01.07.25:327][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.497
+[2015.06.15-01.07.25:372][707]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown2D/TopDownCharacter] ([1] browsable assets)...
+[2015.06.15-01.07.25:372][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown2D/TopDownCharacter]
+[2015.06.15-01.07.26:433][707]LogSavePackage: Save=1000.181335ms
+[2015.06.15-01.07.26:467][707]LogSavePackage: Moving '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/TopDownCharacter_Auto1588BDC9E4E80EFA9A9DE75A790878A05.tmp' to '../../../../../../Users/quinlanb/Documents/Unreal Projects/ThirdPersonToTopDown/Saved/Autosaves/Game/TopDown2D/TopDownCharacter_Auto1.uasset'
+[2015.06.15-01.07.26:597][707]LogFileHelpers: Auto-saving content packages took 1.270
+[2015.06.15-01.56.45:804][629]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.15-01.56.46:163][630]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.15-01.56.46:663][631]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.15-01.56.47:163][632]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.15-01.56.47:664][633]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.15-01.56.48:163][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.15-01.56.48:663][635]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.15-01.56.49:164][636]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.15-02.50.58:231][384]LogD3D11RHI:Error: D3DRHI->GetDevice()->CreateTexture2D(&StagingTextureDesc,NULL,StagingTexture.GetInitReference()) failed 
+ at D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Texture.cpp:1356 
+ with error DXGI_ERROR_DEVICE_REMOVED
+[2015.06.15-02.50.59:927][384]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.06.15-02.50.59:927][384]Log file closed, 06/14/15 22:50:59
